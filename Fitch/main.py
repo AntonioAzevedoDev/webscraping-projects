@@ -11,6 +11,7 @@ if __name__ == '__main__':
         print(f'start: {datetime.now()}')
         fitch.save_actions(browser)
         fitch.save_entities(browser)
+
         print(f'end: {datetime.now()}')
 
     except Exception as e:

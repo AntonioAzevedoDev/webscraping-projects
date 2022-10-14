@@ -70,21 +70,31 @@ def accept_cookies(browser):
 
 def verify_pagination(browser):
     print('validando paginação')
-    select = Select(browser.find_element(By.CSS_SELECTOR, '.select-wrap > select:nth-child(1)'))
-    select.select_by_value('100')
-    sleep(2)
-    radio = browser.find_element(By.CSS_SELECTOR,
-                                 'div.rt-thead:nth-child(2) > div:nth-child(1) > div:nth-child(4) > input:nth-child(1)')
-    browser.execute_script('arguments[0].click();', radio)
-    browser.find_element(By.CSS_SELECTOR,
-                         'div.rt-thead:nth-child(2) > div:nth-child(1) > div:nth-child(4) > input:nth-child(1)').send_keys(
-        'Brazil')
+    try:
+        select = Select(browser.find_element(By.CSS_SELECTOR, '.select-wrap > select:nth-child(1)'))
+        select.select_by_value('100')
+        sleep(2)
+        radio = browser.find_element(By.CSS_SELECTOR,
+                                     'div.rt-thead:nth-child(2) > div:nth-child(1) > div:nth-child(4) > input:nth-child(1)')
+        browser.execute_script('arguments[0].click();', radio)
+        browser.find_element(By.CSS_SELECTOR,
+                             'div.rt-thead:nth-child(2) > div:nth-child(1) > div:nth-child(4) > input:nth-child(1)').send_keys(
+            'Brazil')
 
-    total = browser.find_element(By.CSS_SELECTOR, '.-totalPages').text
-    page = browser.find_element(By.CSS_SELECTOR, '.-pageJump > input:nth-child(1)').get_attribute('value')
-    if int(total) < int(page):
-        btn = browser.find_element(By.CSS_SELECTOR, '.-next > button:nth-child(1)')
-        browser.execute_script('arguments[0].click();', btn)
+        total = browser.find_element(By.CSS_SELECTOR, '.-totalPages').text
+        page = browser.find_element(By.CSS_SELECTOR, '.-pageJump > input:nth-child(1)').get_attribute('value')
+        if int(total) < int(page):
+            btn = browser.find_element(By.CSS_SELECTOR, '.-next > button:nth-child(1)')
+            browser.execute_script('arguments[0].click();', btn)
+    except Exception as e:
+        print('')
+
+def return_header_splited(browser):
+    header = [col.text for col in
+              browser.find_element(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1)').find_elements(By.CSS_SELECTOR,
+                                                                                               'div.rt-thead:nth-child(1) > div:nth-child(1)')]
+    header_splited = header[0].split("\n")
+    return header_splited
 
 
 def verify_pagination_entities(browser):

@@ -5,37 +5,85 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from Fitch.utils import utils
 from Fitch.data import pathandcredentials as pc
+import hashlib
+import os
 
 
 def save_actions(browser):
     print('ratings actions')
     browser.get(pc.ACT_URL)
-    sleep(4)
+    sleep(5)
     utils.accept_cookies(browser)
     sleep(2)
     # Validar paginação
     utils.verify_pagination(browser)
     # Fim da validação
-    header = [col.text for col in browser.find_element(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1)').find_elements(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1) > div:nth-child(1)')]
-    header_splited = header[0].split("\n")
+    #header = [col.text for col in browser.find_element(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1)').find_elements(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1) > div:nth-child(1)')]
+    header_splited = utils.return_header_splited(browser)
     assert len(header_splited) == 6, f'expected 6 cols, got {len(header_splited)}'
     payload = []
+    url_list = []
     body = browser.find_element(By.CSS_SELECTOR, '.rt-tbody')
     for row in body.find_elements(By.CLASS_NAME, 'rt-tr-group'):
+
         entry = row.find_elements(By.CLASS_NAME, 'rt-td')
+        #commentary = save_action_commentary(browser,entry[1].find_element(By.TAG_NAME, 'a').get_attribute('href'))
+
+        header_splited = utils.return_header_splited(browser)
+        title = entry[1].text
+        date = utils.br_date(entry[0].text)
+        url = entry[1].find_element(By.TAG_NAME, 'a').get_attribute('href')
+        market_sectors_splited = entry[2].text.split('\n')
+        regions_splited = entry[3].text.split('\n')
+        analysts_splited = entry[5].text.split('\n')
+        if url != '':
+            commentary_name = hashlib.md5(f"{title}".encode('utf-8')).hexdigest()
+        else:
+            commentary_name = ''
+        url_list.append(url + "@" + commentary_name)
         payload.append({
             header_splited[0]: utils.br_date(entry[0].text),
             header_splited[1]: entry[1].text,
-            header_splited[2]: entry[2].text,
-            header_splited[3]: entry[3].text,
+            header_splited[2]: market_sectors_splited,
+            header_splited[3]: regions_splited,
             header_splited[4]: entry[4].text,
-            header_splited[5]: entry[5].text,
-            'url': entry[1].find_element(By.TAG_NAME, 'a').get_attribute('href')
+            header_splited[5]: analysts_splited,
+            'commentary': commentary_name+".html"
         })
+    #save_action_commentary(browser, url_list)
     print('salvar')
     filepath = Path(pc.ACT_PATH) / f"s-{datetime.now().strftime('%Y%m%d')}.json"
     with open(filepath, 'w', encoding='utf-8') as fp:
         dump(payload, fp, ensure_ascii=False, indent=1)
+
+
+def save_action_commentary(browser, url_list):
+    print('rating action commentary')
+    aux = 0
+    try:
+        dir_name = str(datetime.now())
+        dir_name_splited = dir_name.split('.')
+        dir_name = dir_name_splited[0].replace(':', '-')
+        os.mkdir(fr'fitch_data\br\actions\action_commentary\{dir_name}')
+        for url in url_list:
+            url_splited = url.split("@")
+            browser.get(url_splited[0])
+            sleep(4)
+            payload = []
+
+            arquivo = open(fr'fitch_data\br\actions\action_commentary\{dir_name}\{url_splited[1]}.html', 'w')
+            title = browser.find_element(By.CSS_SELECTOR, '.heading--1').text
+            body = browser.find_element(By.CSS_SELECTOR, '.RAC')
+            for row in body.find_elements(By.TAG_NAME, f'p'):
+                payload.append(row.text)
+            payload.insert(0, title)
+            for line in payload:
+                arquivo.write(line)
+            arquivo.close()
+            sleep(2)
+
+    except Exception as e:
+        print('')
 
 
 def save_entities(browser):
@@ -93,13 +141,13 @@ def save_entities(browser):
                         rating_elements = rating_table[aux_skip:aux_take]
 
                         try:
-                            header1 += "\n" + rating_elements[0] + "\n " + rating_elements[1] + "\n " + rating_elements[2] + "\n " + rating_elements[3]
+                            header1 += rating_elements[0] + "," + rating_elements[1] + "," + rating_elements[2] + "," + rating_elements[3] + "\n"
 
                             aux_skip += 4
                             aux_take += 4
                         except Exception as e:
                             continue
-
+                    header1_splited = header1.split('\n')
                     aux_skip = 0
                     aux_take = 2
                     while aux_skip <= len(analyst_table):
@@ -107,20 +155,22 @@ def save_entities(browser):
                             break
                         analyst_elements = analyst_table[aux_skip:aux_take]
                         try:
-                            header3 += "\n" + analyst_elements[0] + "\n " + rating_elements[1]
+                            header3 += analyst_elements[0] + "," + rating_elements[1] + ","
 
                             aux_skip += 2
                             aux_take += 2
                         except Exception as e:
                             continue
+                    header3_splited = header3.split(',')
                     entity_name = row.text.split("\n")
                     if entity_name[0] == 'ULTIMATE PARENT':
                         entity_name[0] = entity_name[1]
+                    sector_and_country_table_splited = sector_and_country_table[0].split('\n')
                     payload.append({
                         header[0]: entity_name[0],
-                        header[1]: header1,
-                        header[2]: sector_and_country_table[0],
-                        header[3]: header3,
+                        header[1]: header1_splited,
+                        header[2]: sector_and_country_table_splited,
+                        header[3]: header3_splited,
                         'url': row.find_element(By.TAG_NAME, 'a').get_attribute('href')
                     })
                     if aux != 25:
