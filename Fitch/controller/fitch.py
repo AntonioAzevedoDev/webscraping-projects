@@ -65,6 +65,7 @@ def save_action_commentary(browser, url_list):
         dir_name_splited = dir_name.split('.')
         dir_name = dir_name_splited[0].replace(':', '-')
         os.mkdir(fr'fitch_data\br\actions\action_commentary\{dir_name}')
+
         for url in url_list:
             url_splited = url.split("@")
             browser.get(url_splited[0])
@@ -88,7 +89,13 @@ def save_action_commentary(browser, url_list):
 
 def save_entities(browser):
     print('entities')
-
+    ENT_PATH_JSON = datetime.now().strftime('%Y%m%d')
+    path = os.path.join(pc.ENT_PATH, ENT_PATH_JSON)
+    if os.path.isdir(path):
+        print("O diretório existe!")
+    else:
+        os.mkdir(path)
+    file_list = ['']
     browser.get(pc.ENT_URL)
     sleep(4)
     utils.accept_cookies(browser)
@@ -116,7 +123,7 @@ def save_entities(browser):
                     #print(f"row {aux}")
                     rating_table = []
                     i = 2
-
+                    aux_detais = 0
                     while len(rating_table) == 0:
 
                         try:
@@ -125,8 +132,27 @@ def save_entities(browser):
                         except Exception as ex:
                             continue
                         try:
-                            #rating_table = [col.text for col in row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(2) > p:nth-child(1)')]
                             rating_table = [col.text for col in row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)').find_elements(By.TAG_NAME, 'td')]
+                            rating_table_detailed = row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)').find_elements(By.TAG_NAME, 'td')
+
+                            prefix = ''
+                            for details in rating_table_detailed:
+                                try:
+                                    try:
+                                        prefix = details.find_element(By.TAG_NAME,f'span').get_attribute("class")
+                                        if prefix != '':
+                                            rating_table[aux_detais] = rating_table[aux_detais] + "," + prefix
+                                        else:
+                                            rating_table[aux_detais] = rating_table[aux_detais] + ","
+                                        aux_detais += 1
+                                    except Exception as e:
+                                        aux_detais += 1
+                                        continue
+
+                                except Exception as e:
+
+                                    continue
+
                             sector_and_country_table = [col.text for col in row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(3)').find_elements(By.TAG_NAME, 'p')]
                             analyst_table = [col.text for col in row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(4)').find_elements(By.TAG_NAME, 'p')]
                         except Exception as ex:
@@ -141,31 +167,37 @@ def save_entities(browser):
                         rating_elements = rating_table[aux_skip:aux_take]
 
                         try:
+
                             header1 += rating_elements[0] + "," + rating_elements[1] + "," + rating_elements[2] + "," + rating_elements[3] + "\n"
 
                             aux_skip += 4
                             aux_take += 4
                         except Exception as e:
                             continue
-                    header1_splited = header1.split('\n')
+                    header1_splited = header1.strip().split('\n')
                     aux_skip = 0
                     aux_take = 2
                     while aux_skip <= len(analyst_table):
                         if aux_take > len(analyst_table):
                             break
                         analyst_elements = analyst_table[aux_skip:aux_take]
+                        #analyst_elements.append('')
                         try:
-                            header3 += analyst_elements[0] + "," + rating_elements[1] + ","
+                            if header3 != "":
+                                header3 += "," + analyst_elements[0] + "," + analyst_elements[1]
+                            else:
+                                header3 += analyst_elements[0] + "," + analyst_elements[1]
 
                             aux_skip += 2
                             aux_take += 2
                         except Exception as e:
                             continue
-                    header3_splited = header3.split(',')
+                    header3_splited = header3.strip().split(',')
                     entity_name = row.text.split("\n")
                     if entity_name[0] == 'ULTIMATE PARENT':
                         entity_name[0] = entity_name[1]
-                    sector_and_country_table_splited = sector_and_country_table[0].split('\n')
+                    sector_and_country_table_splited = sector_and_country_table[0].strip().split('\n')
+                    sector_and_country_table_splited = [element for element in sector_and_country_table_splited if element.strip()]
                     payload.append({
                         header[0]: entity_name[0],
                         header[1]: header1_splited,
@@ -173,11 +205,27 @@ def save_entities(browser):
                         header[3]: header3_splited,
                         'url': row.find_element(By.TAG_NAME, 'a').get_attribute('href')
                     })
+                    url = row.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                    url_splited = url.split('/entity/')
+                    url_splited_2 = url_splited[1].split('-')
+                    url_code = url_splited_2.pop()
+                    new_path = pc.ENT_PATH + r'\\' + ENT_PATH_JSON
+                    name_file = f"s-{url_code}.json"
+                    filepath = Path(new_path) / name_file
+                    if os.path.isfile(filepath):
+                        print(f'Arquivo {name_file} já existe')
+                    else:
+                        with open(filepath, 'w', encoding='utf-8') as fp:
+                            dump(payload, fp, ensure_ascii=False, indent=1)
+                        print(f'Entity salva: {name_file}')
+                    payload = []
+                    file_list.append(name_file)
+
                     if aux != 25:
                         aux += 1
                         header1 = ""
                         header3 = ""
-                        sector_and_country_table = ['-']
+                        sector_and_country_table = ['']
                         sleep(1)
                     else:
                         #Mudar de página
@@ -196,14 +244,11 @@ def save_entities(browser):
 
                         header1 = ""
                         header3 = ""
-                        sector_and_country_table = ['-']
+                        sector_and_country_table = ['']
                         sleep(5)
                         print(f"Page: {page_now}")
+
             else:
                 page_now += 1
                 break
-        print('salvar')
 
-        filepath = Path(pc.ENT_PATH) / f"s-{datetime.now().strftime('%Y%m%d')}.json"
-        with open(filepath, 'w', encoding='utf-8') as fp:
-            dump(payload, fp, ensure_ascii=False, indent=1)

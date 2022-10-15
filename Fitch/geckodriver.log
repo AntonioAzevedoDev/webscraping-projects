@@ -4799,3 +4799,731 @@ console.error: services.settings:
   main/doh-config local data was corrupted
 console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
 1665706195959	Marionette	INFO	Stopped listening on port 58937
+1665756252465	geckodriver	INFO	Listening on 127.0.0.1:51683
+1665756255504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "51684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileh8YGbj"
+*** You are running in headless mode.
+1665756256476	Marionette	INFO	Marionette enabled
+1665756256481	Marionette	INFO	Listening on port 51694
+Read port: 51694
+WebDriver BiDi listening on ws://127.0.0.1:51684
+1665756256580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileh8YGbj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51684/devtools/browser/c6d47a7f-ee08-4f73-8039-4a5c1d35a2b8
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665759069609	geckodriver	INFO	Listening on 127.0.0.1:53868
+1665759072686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "53869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileFE5Zfl"
+*** You are running in headless mode.
+1665759073660	Marionette	INFO	Marionette enabled
+1665759073668	Marionette	INFO	Listening on port 53877
+Read port: 53877
+WebDriver BiDi listening on ws://127.0.0.1:53869
+1665759073796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileFE5Zfl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53869/devtools/browser/a96373c7-1b02-4aeb-adaa-8187d7ca74ef
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665759332233	geckodriver	INFO	Listening on 127.0.0.1:54173
+1665759335309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "54174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileUw6mfy"
+*** You are running in headless mode.
+1665759335870	Marionette	INFO	Marionette enabled
+1665759335875	Marionette	INFO	Listening on port 54186
+WebDriver BiDi listening on ws://127.0.0.1:54174
+Read port: 54186
+1665759336208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileUw6mfy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54174/devtools/browser/227ad0e6-af73-4071-8173-f8c21aab2e7e
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665760417895	geckodriver	INFO	Listening on 127.0.0.1:54920
+1665760420967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "54921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilew6PgH2"
+*** You are running in headless mode.
+1665760421943	Marionette	INFO	Marionette enabled
+1665760421948	Marionette	INFO	Listening on port 54933
+Read port: 54933
+WebDriver BiDi listening on ws://127.0.0.1:54921
+1665760422053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilew6PgH2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54921/devtools/browser/63a32cf1-b803-4008-824a-b400bdabbb13
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665760702933	geckodriver	INFO	Listening on 127.0.0.1:55286
+1665760706001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "55287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileKm5MRc"
+*** You are running in headless mode.
+1665760706437	Marionette	INFO	Marionette enabled
+1665760706442	Marionette	INFO	Listening on port 55299
+WebDriver BiDi listening on ws://127.0.0.1:55287
+Read port: 55299
+1665760706715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileKm5MRc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55287/devtools/browser/98e3afd1-069a-4711-a1a8-299750791635
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665769114754	Marionette	INFO	Stopped listening on port 55299
+1665775194309	geckodriver	INFO	Listening on 127.0.0.1:62418
+1665775197472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "62419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileWcEYnx"
+*** You are running in headless mode.
+1665775198785	Marionette	INFO	Marionette enabled
+1665775198793	Marionette	INFO	Listening on port 62430
+WebDriver BiDi listening on ws://127.0.0.1:62419
+Read port: 62430
+1665775199297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileWcEYnx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62419/devtools/browser/d42eb9d7-a3ba-43c9-8853-f87c30b12707
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665776616061	geckodriver	INFO	Listening on 127.0.0.1:63499
+1665776619121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63500" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile3mzUj2"
+*** You are running in headless mode.
+1665776620578	Marionette	INFO	Marionette enabled
+1665776620586	Marionette	INFO	Listening on port 63513
+Read port: 63513
+WebDriver BiDi listening on ws://127.0.0.1:63500
+1665776620762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile3mzUj2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63500/devtools/browser/b52e904b-a3c8-417e-9f64-4ff686694e51
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665777179548	geckodriver	INFO	Listening on 127.0.0.1:64048
+1665777182626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile3pwLZE"
+*** You are running in headless mode.
+1665777183487	Marionette	INFO	Marionette enabled
+1665777183492	Marionette	INFO	Listening on port 64061
+Read port: 64061
+WebDriver BiDi listening on ws://127.0.0.1:64049
+1665777183594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile3pwLZE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64049/devtools/browser/9dca082b-e647-4181-8d70-361762d508cd
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665777235433	geckodriver	INFO	Listening on 127.0.0.1:64296
+1665777238498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile7DTaUO"
+*** You are running in headless mode.
+1665777238927	Marionette	INFO	Marionette enabled
+1665777238932	Marionette	INFO	Listening on port 64307
+Read port: 64307
+WebDriver BiDi listening on ws://127.0.0.1:64297
+1665777239036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile7DTaUO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64297/devtools/browser/86032926-654a-46f7-ac85-efd84e4cd699
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665777284145	geckodriver	INFO	Listening on 127.0.0.1:64537
+1665777287202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64538" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileoUoc1R"
+*** You are running in headless mode.
+1665777287639	Marionette	INFO	Marionette enabled
+1665777287644	Marionette	INFO	Listening on port 64548
+Read port: 64548
+WebDriver BiDi listening on ws://127.0.0.1:64538
+1665777287756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileoUoc1R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64538/devtools/browser/7323a741-a18c-4598-8bd7-8fd6bbda5fab
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665777406357	geckodriver	INFO	Listening on 127.0.0.1:64816
+1665777409420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileYCI9VD"
+*** You are running in headless mode.
+1665777409918	Marionette	INFO	Marionette enabled
+1665777409924	Marionette	INFO	Listening on port 64830
+Read port: 64830
+WebDriver BiDi listening on ws://127.0.0.1:64817
+1665777410050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileYCI9VD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64817/devtools/browser/5f70e952-e904-4493-aa9c-1373bed3f3e4
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665777457694	geckodriver	INFO	Listening on 127.0.0.1:65067
+1665777460742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "65068" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilewnYQVo"
+*** You are running in headless mode.
+1665777461426	Marionette	INFO	Marionette enabled
+1665777461432	Marionette	INFO	Listening on port 65078
+WebDriver BiDi listening on ws://127.0.0.1:65068
+Read port: 65078
+1665777461674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilewnYQVo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65068/devtools/browser/87131803-5957-42b1-9675-cffbda24a8c5
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665777614719	geckodriver	INFO	Listening on 127.0.0.1:65364
+1665777617761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "65365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile14zNPo"
+*** You are running in headless mode.
+1665777618772	Marionette	INFO	Marionette enabled
+1665777618777	Marionette	INFO	Listening on port 65376
+Read port: 65376
+WebDriver BiDi listening on ws://127.0.0.1:65365
+1665777618916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile14zNPo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65365/devtools/browser/f0810bca-19f3-4f42-8720-1512a4343492
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\lucas\AppData\Local\Temp\rust_mozprofile14zNPo\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\lucas\AppData\Local\Temp\rust_mozprofile14zNPo\thumbnails) because it does not exist
+1665785841145	geckodriver	INFO	Listening on 127.0.0.1:53182
+1665785844207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "53183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile0ukuJ8"
+*** You are running in headless mode.
+1665785845398	Marionette	INFO	Marionette enabled
+1665785845405	Marionette	INFO	Listening on port 53198
+Read port: 53198
+WebDriver BiDi listening on ws://127.0.0.1:53183
+1665785845545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile0ukuJ8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53183/devtools/browser/86672f2a-3b3d-44fb-83d0-0085147f54d7
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665785926462	geckodriver	INFO	Listening on 127.0.0.1:53411
+1665785929612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "53412" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileb07bUb"
+*** You are running in headless mode.
+1665785930170	Marionette	INFO	Marionette enabled
+1665785930175	Marionette	INFO	Listening on port 53424
+WebDriver BiDi listening on ws://127.0.0.1:53412
+Read port: 53424
+1665785930448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileb07bUb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53412/devtools/browser/4b226388-0718-4704-8d7f-c04139345dc9
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665786096985	geckodriver	INFO	Listening on 127.0.0.1:53711
+1665786100043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "53712" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilewo7246"
+*** You are running in headless mode.
+1665786101212	Marionette	INFO	Marionette enabled
+1665786101218	Marionette	INFO	Listening on port 53722
+Read port: 53722
+WebDriver BiDi listening on ws://127.0.0.1:53712
+1665786101327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilewo7246\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53712/devtools/browser/b83af62a-1c0f-4622-9d61-e4230cbf4064
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665786177352	geckodriver	INFO	Listening on 127.0.0.1:53987
+1665786180388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "53988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile73czev"
+*** You are running in headless mode.
+1665786181415	Marionette	INFO	Marionette enabled
+1665786181420	Marionette	INFO	Listening on port 54003
+WebDriver BiDi listening on ws://127.0.0.1:53988
+Read port: 54003
+1665786181715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile73czev\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53988/devtools/browser/084a2fb0-de28-496b-9ef0-80fc6272dd9f
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665786596150	geckodriver	INFO	Listening on 127.0.0.1:54401
+1665786599240	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "54402" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileBUppMR"
+*** You are running in headless mode.
+1665786599715	Marionette	INFO	Marionette enabled
+1665786599722	Marionette	INFO	Listening on port 54415
+WebDriver BiDi listening on ws://127.0.0.1:54402
+Read port: 54415
+1665786599978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileBUppMR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54402/devtools/browser/1b3a926b-ba1a-423b-8af3-6cd00810f150
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665787141067	geckodriver	INFO	Listening on 127.0.0.1:54987
+1665787144247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "54988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofiletcQpLx"
+*** You are running in headless mode.
+1665787145221	Marionette	INFO	Marionette enabled
+1665787145227	Marionette	INFO	Listening on port 55000
+Read port: 55000
+WebDriver BiDi listening on ws://127.0.0.1:54988
+1665787145334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofiletcQpLx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54988/devtools/browser/d469693e-3fa8-4a3d-9505-b3fd73753209
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665787260392	geckodriver	INFO	Listening on 127.0.0.1:55255
+1665787263466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "55256" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilelAkXe4"
+*** You are running in headless mode.
+1665787263931	Marionette	INFO	Marionette enabled
+1665787263937	Marionette	INFO	Listening on port 55267
+WebDriver BiDi listening on ws://127.0.0.1:55256
+Read port: 55267
+1665787264205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilelAkXe4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55256/devtools/browser/a666c24f-a54a-419a-81b8-655138e11399
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665787292202	geckodriver	INFO	Listening on 127.0.0.1:55472
+1665787295304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "55473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileqxrQIz"
+*** You are running in headless mode.
+1665787296041	Marionette	INFO	Marionette enabled
+1665787296046	Marionette	INFO	Listening on port 55485
+Read port: 55485
+WebDriver BiDi listening on ws://127.0.0.1:55473
+1665787296153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileqxrQIz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55473/devtools/browser/4cc7a2fc-8258-463f-bede-f69c9c514dbd
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665787467323	geckodriver	INFO	Listening on 127.0.0.1:55807
+1665787470397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "55808" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilex33x9h"
+*** You are running in headless mode.
+1665787471251	Marionette	INFO	Marionette enabled
+1665787471256	Marionette	INFO	Listening on port 55821
+Read port: 55821
+WebDriver BiDi listening on ws://127.0.0.1:55808
+1665787471362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilex33x9h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55808/devtools/browser/62a1f79f-0e08-4dff-88b0-23939f783f69
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665787698003	geckodriver	INFO	Listening on 127.0.0.1:56170
+1665787701069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "56171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileqr66i9"
+*** You are running in headless mode.
+1665787701615	Marionette	INFO	Marionette enabled
+1665787701622	Marionette	INFO	Listening on port 56183
+Read port: 56183
+WebDriver BiDi listening on ws://127.0.0.1:56171
+1665787701736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileqr66i9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56171/devtools/browser/f499d795-749a-413e-8f7c-6e4f1c8300f7
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665788033457	geckodriver	INFO	Listening on 127.0.0.1:56709
+1665788036653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "56710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileit9NCv"
+*** You are running in headless mode.
+1665788038041	Marionette	INFO	Marionette enabled
+1665788038046	Marionette	INFO	Listening on port 56723
+Read port: 56723
+WebDriver BiDi listening on ws://127.0.0.1:56710
+1665788038196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileit9NCv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56710/devtools/browser/d28d362f-6cc6-4718-8943-74cf16e06666
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665788466272	geckodriver	INFO	Listening on 127.0.0.1:57157
+1665788469414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "57158" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileCNIaBz"
+*** You are running in headless mode.
+1665788469952	Marionette	INFO	Marionette enabled
+1665788469957	Marionette	INFO	Listening on port 57169
+WebDriver BiDi listening on ws://127.0.0.1:57158
+Read port: 57169
+1665788470315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileCNIaBz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57158/devtools/browser/015db9d7-b167-4ade-917b-78f2aadcffeb
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665788617734	geckodriver	INFO	Listening on 127.0.0.1:57449
+1665788620877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "57450" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilefLQ6Iz"
+*** You are running in headless mode.
+1665788621500	Marionette	INFO	Marionette enabled
+1665788621506	Marionette	INFO	Listening on port 57464
+WebDriver BiDi listening on ws://127.0.0.1:57450
+Read port: 57464
+1665788621831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilefLQ6Iz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57450/devtools/browser/74877e31-111f-420b-877b-5d16650c9cf5
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665788720630	geckodriver	INFO	Listening on 127.0.0.1:57716
+1665788723590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "57717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileP2XMUu"
+*** You are running in headless mode.
+1665788724193	Marionette	INFO	Marionette enabled
+1665788724199	Marionette	INFO	Listening on port 57729
+WebDriver BiDi listening on ws://127.0.0.1:57717
+Read port: 57729
+1665788724537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileP2XMUu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57717/devtools/browser/47352e93-a44c-4293-bf82-83dda8759438
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665789250161	geckodriver	INFO	Listening on 127.0.0.1:58300
+1665789253228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "58301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileCmaVxw"
+*** You are running in headless mode.
+1665789254230	Marionette	INFO	Marionette enabled
+1665789254236	Marionette	INFO	Listening on port 58314
+Read port: 58314
+WebDriver BiDi listening on ws://127.0.0.1:58301
+1665789254379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileCmaVxw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58301/devtools/browser/20045f8c-c45b-463e-8cf8-1e23e304b8ab
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665789539184	geckodriver	INFO	Listening on 127.0.0.1:58655
+1665789542316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "58656" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilekxNiMV"
+*** You are running in headless mode.
+1665789542917	Marionette	INFO	Marionette enabled
+1665789542923	Marionette	INFO	Listening on port 58667
+Read port: 58667
+WebDriver BiDi listening on ws://127.0.0.1:58656
+1665789543062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilekxNiMV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58656/devtools/browser/9db9166c-6a7b-44ae-88b2-1b5a4eef2891
+1665789567239	geckodriver	INFO	Listening on 127.0.0.1:58713
+1665789570408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "58714" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileHCcith"
+*** You are running in headless mode.
+1665789571039	Marionette	INFO	Marionette enabled
+1665789571046	Marionette	INFO	Listening on port 58728
+Read port: 58728
+WebDriver BiDi listening on ws://127.0.0.1:58714
+1665789571169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileHCcith\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58714/devtools/browser/b52a5aa4-e818-418e-9fb3-5cfcc59a0d84
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665789646107	geckodriver	INFO	Listening on 127.0.0.1:58982
+1665789649131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "58983" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileLVCUed"
+*** You are running in headless mode.
+1665789649713	Marionette	INFO	Marionette enabled
+1665789649724	Marionette	INFO	Listening on port 58993
+WebDriver BiDi listening on ws://127.0.0.1:58983
+Read port: 58993
+1665789649987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileLVCUed\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58983/devtools/browser/e2c8f8a9-e229-457e-abec-bc2ad3db882e
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665789698020	geckodriver	INFO	Listening on 127.0.0.1:59251
+1665789701013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "59252" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileVJcTfZ"
+*** You are running in headless mode.
+1665789701524	Marionette	INFO	Marionette enabled
+1665789701530	Marionette	INFO	Listening on port 59263
+Read port: 59263
+WebDriver BiDi listening on ws://127.0.0.1:59252
+1665789701653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileVJcTfZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59252/devtools/browser/cce311cc-3791-4e17-b481-e13375006fcc
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665789834400	geckodriver	INFO	Listening on 127.0.0.1:59546
+1665789837433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "59547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileDCT3Yc"
+*** You are running in headless mode.
+1665789837934	Marionette	INFO	Marionette enabled
+1665789837942	Marionette	INFO	Listening on port 59559
+Read port: 59559
+WebDriver BiDi listening on ws://127.0.0.1:59547
+1665789838064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileDCT3Yc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59547/devtools/browser/9e6ca8c2-e256-434a-bae8-e5320997458b
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665790029047	geckodriver	INFO	Listening on 127.0.0.1:59884
+1665790032104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "59885" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileE7ALAb"
+*** You are running in headless mode.
+1665790032573	Marionette	INFO	Marionette enabled
+1665790032580	Marionette	INFO	Listening on port 59897
+WebDriver BiDi listening on ws://127.0.0.1:59885
+Read port: 59897
+1665790032866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileE7ALAb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59885/devtools/browser/7da6ab9e-27ae-495d-8615-f965895b6788
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665790222532	geckodriver	INFO	Listening on 127.0.0.1:60244
+1665790227619	geckodriver	INFO	Listening on 127.0.0.1:60255
+1665790230664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "60256" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilegDNI7G"
+*** You are running in headless mode.
+1665790231526	Marionette	INFO	Marionette enabled
+1665790231531	Marionette	INFO	Listening on port 60267
+Read port: 60267
+WebDriver BiDi listening on ws://127.0.0.1:60256
+1665790231713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilegDNI7G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60256/devtools/browser/4dc88e29-cda9-435a-8570-52d832ee77ea
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665790638784	geckodriver	INFO	Listening on 127.0.0.1:60783
+1665790641873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "60784" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileMS6mqU"
+*** You are running in headless mode.
+1665790642656	Marionette	INFO	Marionette enabled
+1665790642663	Marionette	INFO	Listening on port 60797
+Read port: 60797
+WebDriver BiDi listening on ws://127.0.0.1:60784
+1665790642820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileMS6mqU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60784/devtools/browser/e8f82d9e-1ee3-4bf7-a47b-8d61ea53ab22
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665791388968	geckodriver	INFO	Listening on 127.0.0.1:61876
+1665791392037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "61877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile1vA83K"
+*** You are running in headless mode.
+1665791392991	Marionette	INFO	Marionette enabled
+1665791392997	Marionette	INFO	Listening on port 61887
+Read port: 61887
+WebDriver BiDi listening on ws://127.0.0.1:61877
+1665791393098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile1vA83K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61877/devtools/browser/3effba9a-9148-425a-bb94-faa76d3c7459
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665791645984	geckodriver	INFO	Listening on 127.0.0.1:62221
+1665791649049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "62222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileKT0zCF"
+*** You are running in headless mode.
+1665791649486	Marionette	INFO	Marionette enabled
+1665791649491	Marionette	INFO	Listening on port 62233
+Read port: 62233
+WebDriver BiDi listening on ws://127.0.0.1:62222
+1665791649597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileKT0zCF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62222/devtools/browser/f8a39b10-ae52-438d-9b5f-38b903804375
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665791795952	geckodriver	INFO	Listening on 127.0.0.1:62505
+1665791799013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "62506" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileLNjzac"
+*** You are running in headless mode.
+1665791799535	Marionette	INFO	Marionette enabled
+1665791799540	Marionette	INFO	Listening on port 62516
+WebDriver BiDi listening on ws://127.0.0.1:62506
+Read port: 62516
+1665791800021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileLNjzac\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62506/devtools/browser/6c32f128-0774-45ce-80a9-09581045b723
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665791889744	geckodriver	INFO	Listening on 127.0.0.1:62686
+1665791892803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "62687" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileJhIAkD"
+*** You are running in headless mode.
+1665791893234	Marionette	INFO	Marionette enabled
+1665791893239	Marionette	INFO	Listening on port 62695
+Read port: 62695
+WebDriver BiDi listening on ws://127.0.0.1:62687
+1665791893350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileJhIAkD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62687/devtools/browser/02ac6731-2faf-40bf-9396-b29e18bbdb4f
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665791922670	Marionette	INFO	Stopped listening on port 62695
+1665792123200	geckodriver	INFO	Listening on 127.0.0.1:63012
+1665792126355	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileUhPk7v"
+*** You are running in headless mode.
+1665792126918	Marionette	INFO	Marionette enabled
+1665792126924	Marionette	INFO	Listening on port 63023
+WebDriver BiDi listening on ws://127.0.0.1:63013
+Read port: 63023
+1665792127324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileUhPk7v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63013/devtools/browser/d3301f12-79c2-4e18-afdb-d68ccd369029
+1665792138842	Marionette	INFO	Stopped listening on port 63023
+1665792200912	geckodriver	INFO	Listening on 127.0.0.1:63127
+1665792203927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63128" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile8DvWIb"
+*** You are running in headless mode.
+1665792204393	Marionette	INFO	Marionette enabled
+1665792204398	Marionette	INFO	Listening on port 63138
+WebDriver BiDi listening on ws://127.0.0.1:63128
+Read port: 63138
+1665792204633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile8DvWIb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63128/devtools/browser/17658c6a-ebca-4881-b0a1-56bf3214f368
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665792230963	Marionette	INFO	Stopped listening on port 63138
+1665792376132	geckodriver	INFO	Listening on 127.0.0.1:63402
+1665792379190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63403" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilerhglVz"
+*** You are running in headless mode.
+1665792379645	Marionette	INFO	Marionette enabled
+1665792379650	Marionette	INFO	Listening on port 63414
+WebDriver BiDi listening on ws://127.0.0.1:63403
+Read port: 63414
+1665792379931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilerhglVz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63403/devtools/browser/5894c1ca-a074-4faf-a2b4-b9db434f3aa5
+1665792391019	Marionette	INFO	Stopped listening on port 63414
+1665792401163	geckodriver	INFO	Listening on 127.0.0.1:63489
+1665792404224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63490" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile28LvxS"
+*** You are running in headless mode.
+1665792404696	Marionette	INFO	Marionette enabled
+1665792404702	Marionette	INFO	Listening on port 63500
+WebDriver BiDi listening on ws://127.0.0.1:63490
+Read port: 63500
+1665792404932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile28LvxS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63490/devtools/browser/226f1106-ee36-4525-a20b-b601f9a2b9b1
+1665792416036	Marionette	INFO	Stopped listening on port 63500
+!!! error running onStopped callback: TypeError: callback is not a function
+1665792482334	geckodriver	INFO	Listening on 127.0.0.1:63626
+1665792485378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileJaoITD"
+*** You are running in headless mode.
+1665792485923	Marionette	INFO	Marionette enabled
+1665792485929	Marionette	INFO	Listening on port 63637
+Read port: 63637
+WebDriver BiDi listening on ws://127.0.0.1:63627
+1665792486036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileJaoITD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63627/devtools/browser/ba68ede6-f762-4521-b754-07ba7bb8eaa3
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665792511461	Marionette	INFO	Stopped listening on port 63637
+!!! error running onStopped callback: TypeError: callback is not a function
+1665792617594	geckodriver	INFO	Listening on 127.0.0.1:63881
+1665792620643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileD3rhbV"
+*** You are running in headless mode.
+1665792621080	Marionette	INFO	Marionette enabled
+1665792621085	Marionette	INFO	Listening on port 63893
+Read port: 63893
+WebDriver BiDi listening on ws://127.0.0.1:63882
+1665792621191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileD3rhbV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63882/devtools/browser/a91ac99a-e867-47e3-9652-b62e89a105a6
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665792687756	geckodriver	INFO	Listening on 127.0.0.1:64152
+1665792690767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64153" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile7mvVUB"
+*** You are running in headless mode.
+1665792691539	Marionette	INFO	Marionette enabled
+1665792691544	Marionette	INFO	Listening on port 64164
+WebDriver BiDi listening on ws://127.0.0.1:64153
+Read port: 64164
+1665792691815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile7mvVUB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64153/devtools/browser/634a19ef-0b2d-408d-8e4f-6a84c0091584
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665792753427	geckodriver	INFO	Listening on 127.0.0.1:64408
+1665792756499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile6YgOo1"
+*** You are running in headless mode.
+1665792756935	Marionette	INFO	Marionette enabled
+1665792756940	Marionette	INFO	Listening on port 64419
+Read port: 64419
+WebDriver BiDi listening on ws://127.0.0.1:64409
+1665792757063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile6YgOo1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64409/devtools/browser/4b99e135-cea0-44b8-962b-31df4d9b4d97
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665793278081	geckodriver	INFO	Listening on 127.0.0.1:64888
+1665793281135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileAZWO3g"
+*** You are running in headless mode.
+1665793281683	Marionette	INFO	Marionette enabled
+1665793281689	Marionette	INFO	Listening on port 64900
+WebDriver BiDi listening on ws://127.0.0.1:64889
+Read port: 64900
+1665793281970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileAZWO3g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64889/devtools/browser/0ea56924-1d97-423c-b247-1ac0a3f6c7af
+1665793292818	geckodriver	INFO	Listening on 127.0.0.1:64927
+1665793295854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileW0x19k"
+*** You are running in headless mode.
+1665793296387	Marionette	INFO	Marionette enabled
+1665793296392	Marionette	INFO	Listening on port 64938
+Read port: 64938
+WebDriver BiDi listening on ws://127.0.0.1:64928
+1665793296506	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileW0x19k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64928/devtools/browser/53fa5e87-da73-4f83-847a-4c1f45264180
+1665793325610	geckodriver	INFO	Listening on 127.0.0.1:65011
+1665793328653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "65012" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile3O6BaF"
+*** You are running in headless mode.
+1665793329258	Marionette	INFO	Marionette enabled
+1665793329263	Marionette	INFO	Listening on port 65022
+Read port: 65022
+WebDriver BiDi listening on ws://127.0.0.1:65012
+1665793329382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile3O6BaF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65012/devtools/browser/9d3fd7c2-dc77-4483-b0e7-61bddd4f7298
+1665793341118	geckodriver	INFO	Listening on 127.0.0.1:65052
+1665793344138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "65053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileLDPw8L"
+*** You are running in headless mode.
+1665793344673	Marionette	INFO	Marionette enabled
+1665793344678	Marionette	INFO	Listening on port 65063
+Read port: 65063
+WebDriver BiDi listening on ws://127.0.0.1:65053
+1665793344780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileLDPw8L\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65053/devtools/browser/c2399cf0-5145-4999-b008-79a49879af77
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665793377039	Marionette	INFO	Stopped listening on port 65063
+1665793386447	geckodriver	INFO	Listening on 127.0.0.1:65295
+1665793389469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "65296" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile6yyvy2"
+*** You are running in headless mode.
+1665793390052	Marionette	INFO	Marionette enabled
+1665793390058	Marionette	INFO	Listening on port 65307
+WebDriver BiDi listening on ws://127.0.0.1:65296
+Read port: 65307
+1665793390458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofile6yyvy2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65296/devtools/browser/7a9d4ed2-4ca9-4556-a6ba-ab2f73a23c57
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665793431932	geckodriver	INFO	Listening on 127.0.0.1:49171
+1665793434933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "49172" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileCj8WL8"
+*** You are running in headless mode.
+1665793435350	Marionette	INFO	Marionette enabled
+1665793435355	Marionette	INFO	Listening on port 49183
+Read port: 49183
+WebDriver BiDi listening on ws://127.0.0.1:49172
+1665793435458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileCj8WL8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49172/devtools/browser/4740b216-b31e-49d7-bd6e-522aba381bab
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665793536238	Marionette	INFO	Stopped listening on port 49183
+1665793645611	geckodriver	INFO	Listening on 127.0.0.1:49497
+1665793648651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "49498" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileoNRtUE"
+*** You are running in headless mode.
+1665793649479	Marionette	INFO	Marionette enabled
+1665793649484	Marionette	INFO	Listening on port 49509
+Read port: 49509
+WebDriver BiDi listening on ws://127.0.0.1:49498
+1665793649592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileoNRtUE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49498/devtools/browser/c017aa4c-99df-4822-8b54-946d9d532099
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665793781557	geckodriver	INFO	Listening on 127.0.0.1:49797
+1665793784627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "49798" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileMzobJx"
+*** You are running in headless mode.
+1665793785759	Marionette	INFO	Marionette enabled
+1665793785765	Marionette	INFO	Listening on port 49809
+WebDriver BiDi listening on ws://127.0.0.1:49798
+Read port: 49809
+1665793786139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileMzobJx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49798/devtools/browser/51744ebe-18b4-4f5b-9b35-c26e021f25a9
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+1665793875357	geckodriver	INFO	Listening on 127.0.0.1:50054
+1665793878345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "50055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileTZIDJg"
+*** You are running in headless mode.
+1665793878838	Marionette	INFO	Marionette enabled
+1665793878844	Marionette	INFO	Listening on port 50067
+Read port: 50067
+WebDriver BiDi listening on ws://127.0.0.1:50055
+1665793878972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileTZIDJg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50055/devtools/browser/5274dd16-102f-4145-9861-01869ca4518d
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
+1665794198039	geckodriver	INFO	Listening on 127.0.0.1:50454
+1665794201069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "50455" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileKSKWXP"
+*** You are running in headless mode.
+1665794201920	Marionette	INFO	Marionette enabled
+1665794201926	Marionette	INFO	Listening on port 50465
+Read port: 50465
+WebDriver BiDi listening on ws://127.0.0.1:50455
+1665794202031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileKSKWXP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50455/devtools/browser/2133ca3e-584f-421d-986b-b285e9ee6352
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 492 > injectedScript, line 1: TypeError: value is null

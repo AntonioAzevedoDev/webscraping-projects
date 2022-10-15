@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from Fitch.controller import fitch
+from controller import fitch
 from time import sleep
 from Fitch.utils import utils
 
@@ -9,7 +9,7 @@ if __name__ == '__main__':
     browser = utils.get_safe_setup(headless=True)
     try:
         print(f'start: {datetime.now()}')
-        fitch.save_actions(browser)
+        #fitch.save_actions(browser)
         fitch.save_entities(browser)
 
         print(f'end: {datetime.now()}')
