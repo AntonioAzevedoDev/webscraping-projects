@@ -111,3 +111,15 @@ def verify_pagination_entities(browser):
     except Exception as e:
         print('')
     return total_int
+
+
+def return_url_splited(url):
+    try:
+        if url != '':
+            url_splited = url.split('/entity/')
+            url_splited_2 = url_splited[1].split('-')
+            return url_splited_2
+        else:
+            return url
+    except Exception as e:
+        return ''
