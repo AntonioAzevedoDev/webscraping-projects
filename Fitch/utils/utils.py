@@ -1,3 +1,6 @@
+import hashlib
+import os
+from json import dump
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -5,6 +8,8 @@ from datetime import datetime
 from time import sleep
 from selenium.webdriver.support.ui import Select
 
+nods = lambda x: datetime.strptime(x, '%Y-%m-%d').strftime('%Y%m%d')
+hashed = lambda x: hashlib.md5(f'{x}'.encode('utf-8')).hexdigest()
 
 def br_date(dte, sep='-', outfmt='%Y-%m-%d'):
     mes_month = {
@@ -65,7 +70,7 @@ def accept_cookies(browser):
             accept_btn.click()
             sleep(1)
     except Exception as e:
-        print(e)
+        print('')
 
 
 def verify_pagination(browser):
@@ -123,3 +128,7 @@ def return_url_splited(url):
             return url
     except Exception as e:
         return ''
+
+
+
+

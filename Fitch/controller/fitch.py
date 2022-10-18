@@ -5,115 +5,89 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from Fitch.utils import utils
 from Fitch.data import pathandcredentials as pc
-import hashlib
-import os
 
 
-def save_actions(browser):
+def save_actions(browser, overwrite = False):
     print('ratings actions')
     browser.get(pc.ACT_URL)
     sleep(5)
     utils.accept_cookies(browser)
     sleep(2)
-    # Validar paginação
     utils.verify_pagination(browser)
-    # Fim da validação
-    #header = [col.text for col in browser.find_element(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1)').find_elements(By.CSS_SELECTOR, 'div.rt-thead:nth-child(1) > div:nth-child(1)')]
     header_splited = utils.return_header_splited(browser)
     assert len(header_splited) == 6, f'expected 6 cols, got {len(header_splited)}'
     payload = []
     url_list = []
     body = browser.find_element(By.CSS_SELECTOR, '.rt-tbody')
     for row in body.find_elements(By.CLASS_NAME, 'rt-tr-group'):
-
         entry = row.find_elements(By.CLASS_NAME, 'rt-td')
-        #commentary = save_action_commentary(browser,entry[1].find_element(By.TAG_NAME, 'a').get_attribute('href'))
-
         header_splited = utils.return_header_splited(browser)
         title = entry[1].text
-        date = utils.br_date(entry[0].text)
         url = entry[1].find_element(By.TAG_NAME, 'a').get_attribute('href')
-        market_sectors_splited = entry[2].text.split('\n')
-        regions_splited = entry[3].text.split('\n')
-        analysts_splited = entry[5].text.split('\n')
-        if url != '':
-            commentary_name = hashlib.md5(f"{title}".encode('utf-8')).hexdigest()
-        else:
-            commentary_name = ''
-        url_list.append(url + "@" + commentary_name)
+        dte = utils.br_date(entry[0].text)
+        commentary_file = ''
+        if len(url) > 0:
+            commentary_file = f"{utils.hashed(title)}-{utils.nods(dte)}.html"
+            url_list.append(url + "@" + commentary_file)
         payload.append({
-            header_splited[0]: utils.br_date(entry[0].text),
+            header_splited[0]: dte,
             header_splited[1]: entry[1].text,
-            header_splited[2]: market_sectors_splited,
-            header_splited[3]: regions_splited,
+            header_splited[2]: entry[2].text.split('\n'),
+            header_splited[3]: entry[3].text.split('\n'),
             header_splited[4]: entry[4].text,
-            header_splited[5]: analysts_splited,
-            'commentary': commentary_name+".html"
+            header_splited[5]: entry[5].text.split('\n'),
+            'commentary': commentary_file
         })
-    #save_action_commentary(browser, url_list)
     print('salvar')
     filepath = Path(pc.ACT_PATH) / f"s-{datetime.now().strftime('%Y%m%d')}.json"
     with open(filepath, 'w', encoding='utf-8') as fp:
         dump(payload, fp, ensure_ascii=False, indent=1)
+    save_action_commentary(browser, url_list, overwrite)
 
 
-def save_action_commentary(browser, url_list):
+def save_action_commentary(browser, url_list, overwrite=False):
     print('rating action commentary')
-    aux = 0
     try:
-        dir_name = str(datetime.now())
-        dir_name_splited = dir_name.split('.')
-        dir_name = dir_name_splited[0].replace(':', '-')
-        os.mkdir(fr'fitch_data\br\actions\action_commentary\{dir_name}')
-
         for url in url_list:
-            url_splited = url.split("@")
-            browser.get(url_splited[0])
+            _url, file_name = url.split("@")
+            filepath = Path(pc.COM_PATH) / file_name
+            if not overwrite and filepath.exists():
+                continue
+            browser.get(_url)
             sleep(4)
             payload = []
 
-            arquivo = open(fr'fitch_data\br\actions\action_commentary\{dir_name}\{url_splited[1]}.html', 'w')
-            title = browser.find_element(By.CSS_SELECTOR, '.heading--1').text
-            body = browser.find_element(By.CSS_SELECTOR, '.RAC')
-            for row in body.find_elements(By.TAG_NAME, f'p'):
-                payload.append(row.text)
-            payload.insert(0, title)
-            for line in payload:
-                arquivo.write(line)
-            arquivo.close()
+            with open(filepath, 'w') as arquivo:
+                title = browser.find_element(By.CSS_SELECTOR, '.heading--1').text
+                body = browser.find_element(By.CSS_SELECTOR, '.RAC')
+                for row in body.find_elements(By.TAG_NAME, f'p'):
+                    payload.append(row.text)
+                payload.insert(0, title)
+                for line in payload:
+                    arquivo.write(line)
             sleep(2)
 
     except Exception as e:
-        print('')
+        print(e)
 
 
-def save_entities(browser):
+def save_entities(browser, overwrite = False):
     print('entities')
-    ENT_PATH_JSON = datetime.now().strftime('%Y%m%d')
-    path = os.path.join(pc.ENT_PATH, ENT_PATH_JSON)
-    if os.path.isdir(path):
-        print("O diretório existe!")
-    else:
-        os.mkdir(path)
-    file_list = ['']
     url_list = ['']
     browser.get(pc.ENT_URL)
     sleep(4)
     utils.accept_cookies(browser)
     sleep(1)
-    # Validar paginação
     total_pages = utils.verify_pagination_entities(browser)
-    # Fim da validação
     if total_pages > 1:
         header = [col.text for col in browser.find_element(By.CSS_SELECTOR, 'div.column__four:nth-child(1)').find_elements(By.CLASS_NAME, 'heading--6')]
-        #header_splited = header[0].split("\n")
         assert len(header) == 4, f'expected 4 cols, got {len(header)}'
         payload = []
         header1 = ""
         header3 = ""
         page_now = 1
         aux = 2
-        while page_now <= total_pages:
+        while page_now <= 1:
             sleep(1)
             body = browser.find_element(By.CSS_SELECTOR,
                                         '.article > div:nth-child(1) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2)')
@@ -124,13 +98,12 @@ def save_entities(browser):
                     url = row.find_element(By.TAG_NAME, 'a').get_attribute('href')
                     url_splited = utils.return_url_splited(url)
                     url_code = url_splited.pop()
-                    new_path = pc.ENT_PATH + r'\\' + ENT_PATH_JSON
-                    name_file = f"s-{url_code}.json"
-                    filepath = Path(new_path) / name_file
-                    if os.path.isfile(filepath):
-                        print(f'Arquivo {name_file} já existe')
+                    name_file = f"{utils.hashed(url_code)}-{utils.nods(datetime.now().strftime('%Y%m%d'))}.json"
+                    filepath = Path(pc.ENT_PATH ) / name_file
+                    if not overwrite and filepath.exists():
+                        page_now += 1
+                        continue
                     else:
-                        #print(f"row {aux}")
                         rating_table = []
                         i = 2
                         aux_detais = 0
@@ -145,7 +118,6 @@ def save_entities(browser):
                                 rating_table = [col.text for col in row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)').find_elements(By.TAG_NAME, 'td')]
                                 rating_table_detailed = row.find_element(By.CSS_SELECTOR,f'div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)').find_elements(By.TAG_NAME, 'td')
 
-                                prefix = ''
                                 for details in rating_table_detailed:
                                     try:
                                         try:
@@ -177,9 +149,7 @@ def save_entities(browser):
                             rating_elements = rating_table[aux_skip:aux_take]
 
                             try:
-
                                 header1 += rating_elements[0] + "," + rating_elements[1] + "," + rating_elements[2] + "," + rating_elements[3] + "\n"
-
                                 aux_skip += 4
                                 aux_take += 4
                             except Exception as e:
@@ -191,7 +161,6 @@ def save_entities(browser):
                             if aux_take > len(analyst_table):
                                 break
                             analyst_elements = analyst_table[aux_skip:aux_take]
-                            #analyst_elements.append('')
                             try:
                                 if header3 != "":
                                     header3 += "," + analyst_elements[0] + "," + analyst_elements[1]
@@ -217,9 +186,8 @@ def save_entities(browser):
                         })
                         with open(filepath, 'w', encoding='utf-8') as fp:
                             dump(payload, fp, ensure_ascii=False, indent=1)
-                        url_list.append(url)
+                        url_list.append(url + '@' + name_file)
                         payload = []
-                        file_list.append(name_file)
 
                     if aux != 25:
                         aux += 1
@@ -251,12 +219,13 @@ def save_entities(browser):
             else:
                 page_now += 1
                 break
-    save_securities_and_obligations(browser, url_list,ENT_PATH_JSON)
+    save_securities_and_obligations(browser, url_list, overwrite)
 
 
-def save_securities_and_obligations(browser, url_list,ENT_PATH_JSON):
+def save_securities_and_obligations(browser, url_list, overwrite=False):
     print('securities and obligations')
     aux_save = 0
+
     try:
         url_list.remove('')
     except Exception as e:
@@ -265,19 +234,12 @@ def save_securities_and_obligations(browser, url_list,ENT_PATH_JSON):
         try:
             print(f'Tamanho da lista {len(url_list)}')
             for url in url_list:
-                url_splited = utils.return_url_splited(url)
-                url_code = url_splited.pop()
-                SEO_PATH_JSON = ENT_PATH_JSON+r'\\secutiry-and-obligations'
-                path = os.path.join(pc.ENT_PATH, SEO_PATH_JSON)
-                if not os.path.isdir(path):
-                    os.mkdir(path)
-                new_path = pc.ENT_PATH + r'\\' + SEO_PATH_JSON
-                name_file = f"securities_and_obligations_{url_code}.json"
-                filepath = Path(new_path) / name_file
-                if os.path.isfile(filepath):
-                    print(f'Arquivo {name_file} já existe\n')
+                _url, file_name = url.split("@")
+                filepath = Path(pc.SEC_PATH) / file_name
+                if not overwrite and filepath.exists():
+                    continue
                 else:
-                    browser.get(url)
+                    browser.get(_url)
                     sleep(5)
                     payload = []
                     table_rows = []
@@ -311,8 +273,6 @@ def save_securities_and_obligations(browser, url_list,ENT_PATH_JSON):
                                         aux += 1
                                 except Exception as e:
                                     print(e)
-                                # validar span no sao_table_splited
-
                                 aux_span = 0
 
                                 try:
@@ -345,15 +305,13 @@ def save_securities_and_obligations(browser, url_list,ENT_PATH_JSON):
                             'url': url
                         })
 
-
                     if table_rows != []:
                         payload.append({
                             'seção': table_rows,
                             'url': url
                         })
-                    new_path = pc.ENT_PATH + r'\\' + SEO_PATH_JSON
-                    name_file = f"securities_and_obligations_{url_code}.json"
-                    filepath = Path(new_path) / name_file
+
+
                     with open(filepath, 'w', encoding='utf-8') as fp:
                         dump(payload, fp, ensure_ascii=False, indent=1)
                     aux_save += 1
