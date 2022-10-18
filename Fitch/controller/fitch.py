@@ -87,7 +87,7 @@ def save_entities(browser, overwrite = False):
         header3 = ""
         page_now = 1
         aux = 2
-        while page_now <= 1:
+        while page_now <= total_pages:
             sleep(1)
             body = browser.find_element(By.CSS_SELECTOR,
                                         '.article > div:nth-child(1) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2)')
