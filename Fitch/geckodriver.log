@@ -15390,3 +15390,872 @@ JavaScript error: https://www.fitchratings.com/entity/santo-antonio-energia-sa-9
 JavaScript error: https://www.fitchratings.com/entity/concessionaria-rota-do-atlantico-sa-97285847 line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
 JavaScript error: https://www.fitchratings.com/entity/concessionaria-rota-do-atlantico-sa-97285847 line 492 > injectedScript, line 1: ReferenceError: user_id is not defined
 1666012120961	Marionette	INFO	Stopped listening on port 63804
+1666183122675	geckodriver	INFO	Listening on 127.0.0.1:63226
+1666183125805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilemJlrqM"
+*** You are running in headless mode.
+1666183126614	Marionette	INFO	Marionette enabled
+1666183126619	Marionette	INFO	Listening on port 63236
+Read port: 63236
+WebDriver BiDi listening on ws://127.0.0.1:63227
+1666183126746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilemJlrqM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63227/devtools/browser/2825082f-4ce3-4d52-8aa8-aef394fc61cc
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 495 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/research/pt/corporate-finance/fitch-assigns-rating-aaa-bra-to-dasas-proposed-18th-debentures-issuance-18-10-2022 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/research/pt/corporate-finance/fitch-affirms-br-malls-fc-idr-at-bb-lc-idr-at-bbb-national-l-t-rating-at-aaa-bra-18-10-2022 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/research/corporate-finance/fitch-affirms-br-malls-fc-idr-at-bb-lc-idr-at-bbb-national-l-t-rating-at-aaa-bra-18-10-2022 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+1666183203991	Marionette	INFO	Stopped listening on port 63236
+1666183279619	geckodriver	INFO	Listening on 127.0.0.1:63486
+1666183282690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileOdqhi3"
+*** You are running in headless mode.
+1666183283386	Marionette	INFO	Marionette enabled
+1666183283393	Marionette	INFO	Listening on port 63496
+Read port: 63496
+WebDriver BiDi listening on ws://127.0.0.1:63487
+1666183283528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileOdqhi3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63487/devtools/browser/63964f42-c13a-4089-a4bb-4e2879795364
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 524 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+1666183356486	Marionette	INFO	Stopped listening on port 63496
+1666183437840	geckodriver	INFO	Listening on 127.0.0.1:63746
+1666183440901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "63747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileXthHtm"
+*** You are running in headless mode.
+1666183441455	Marionette	INFO	Marionette enabled
+1666183441462	Marionette	INFO	Listening on port 63756
+Read port: 63756
+WebDriver BiDi listening on ws://127.0.0.1:63747
+1666183441623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileXthHtm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63747/devtools/browser/dedbec07-ed98-45c4-b39a-308b6965a59d
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 495 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/br-malls-participacoes-sa-87213182 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sendas-distribuidora-s-a-97205339 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vinci-credito-infra-institucional-fundo-incentivado-de-investimento-em-infraestrutura-renda-fixa-97432394 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/armac-locacao-logistica-e-servicos-sa-97292519 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-1-2-smartfit-97430829 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-master-sa-97092715 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-fortbrasil-96584612 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-vale-do-itajai-viacredi-97229249 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/uniprime-norte-do-parana-cooperativa-de-credito-ltda-96207048 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-de-livre-admissao-de-goiania-e-regiao-ltda-sicoob-engecred-go-96741018 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-crediceripa-sicoob-crediceripa-96975124 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-credicitrus-sicoob-credicitrus-96730168 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-2-bcbf-97435470 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-3-bcbf-97435474 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-1-bcbf-97435461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cosan-sa-88173461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-bs2-sa-86837742 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centro-de-imagem-diagnosticos-sa-alliar-96507481 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fs-agrisolutions-industria-de-biocombustiveis-ltda-96862589 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cp-comercial-sa-97294985 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cpx-distribuidora-sa-97294988 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itr-comercio-de-pneus-e-pecas-sa-97295033 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/porto-seguro-investimentos-ltda-96510346 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-463-havan-97344099 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-96221293 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-cajuina-ab1-holdings-sa-97395448 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-tucano-holding-ii-sa-97281834 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/t-v-v-terminal-de-vila-velha-sa-97292252 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/uniao-quimica-farmaceutica-nacional-sa-90998502 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2022-1-2-dasa-97421532 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-pernambucana-de-gas-copergas-96353577 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-96547840 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gaia-securitizadora-sa-89311661 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+1666184264744	geckodriver	INFO	Listening on 127.0.0.1:64178
+1666184267830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilegb0cWL"
+*** You are running in headless mode.
+1666184268747	Marionette	INFO	Marionette enabled
+1666184268753	Marionette	INFO	Listening on port 64188
+WebDriver BiDi listening on ws://127.0.0.1:64179
+Read port: 64188
+1666184268992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofilegb0cWL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64179/devtools/browser/934a3c12-6861-4374-8afe-868717e8688d
+1666184273164	geckodriver	INFO	Listening on 127.0.0.1:64203
+1666184276216	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64204" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileTQZ4qW"
+*** You are running in headless mode.
+1666184276878	Marionette	INFO	Marionette enabled
+1666184276884	Marionette	INFO	Listening on port 64213
+WebDriver BiDi listening on ws://127.0.0.1:64204
+Read port: 64213
+1666184277308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileTQZ4qW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64204/devtools/browser/dc6e352c-0332-44ff-9017-eaee0a945d84
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 495 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+1666184343371	geckodriver	INFO	Listening on 127.0.0.1:64451
+1666184346451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "64452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileVlxsKw"
+*** You are running in headless mode.
+1666184346881	Marionette	INFO	Marionette enabled
+1666184346885	Marionette	INFO	Listening on port 64461
+Read port: 64461
+WebDriver BiDi listening on ws://127.0.0.1:64452
+1666184346989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileVlxsKw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64452/devtools/browser/0b1eec1e-b496-4ade-9751-4481b6daaf9f
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 495 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://www.fitchratings.com/entity/vinci-credito-infra-institucional-fundo-incentivado-de-investimento-em-infraestrutura-renda-fixa-97432394 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/armac-locacao-logistica-e-servicos-sa-97292519 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-1-2-smartfit-97430829 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-master-sa-97092715 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-fortbrasil-96584612 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-vale-do-itajai-viacredi-97229249 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/uniprime-norte-do-parana-cooperativa-de-credito-ltda-96207048 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-de-livre-admissao-de-goiania-e-regiao-ltda-sicoob-engecred-go-96741018 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-crediceripa-sicoob-crediceripa-96975124 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-credicitrus-sicoob-credicitrus-96730168 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-2-bcbf-97435470 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-3-bcbf-97435474 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-1-bcbf-97435461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cosan-sa-88173461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-bs2-sa-86837742 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centro-de-imagem-diagnosticos-sa-alliar-96507481 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fs-agrisolutions-industria-de-biocombustiveis-ltda-96862589 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cpx-distribuidora-sa-97294988 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itr-comercio-de-pneus-e-pecas-sa-97295033 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cp-comercial-sa-97294985 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/porto-seguro-investimentos-ltda-96510346 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-463-havan-97344099 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-96221293 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-cajuina-ab1-holdings-sa-97395448 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-tucano-holding-ii-sa-97281834 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/t-v-v-terminal-de-vila-velha-sa-97292252 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/uniao-quimica-farmaceutica-nacional-sa-90998502 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2022-1-2-dasa-97421532 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-pernambucana-de-gas-copergas-96353577 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-96547840 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gaia-securitizadora-sa-89311661 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/emergencia-participacoes-sa-97417637 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cscf-vert-5-97301961 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2020-212-grupo-mateus-96845855 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-mateus-97381497 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-2-3-assai-97419780 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2017-169-localiza-96576289 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-opea-agro-sumitomo-chemical-97384354 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/equatorial-energia-para-distribuidora-de-energia-sa-83541468 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/echoenergia-participacoes-sa-96662850 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/equatorial-transmissao-sa-97153792 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/celg-distribuicao-sa-95312890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mateus-supermercados-sa-96026490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-1-2-assai-97420336 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2016-74-mega-moda-97160467 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2016-74-mega-moda-97160467 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/hospital-mater-dei-sa-97281888 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/automotivo-fidc-96708595 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sao-paulo-municipality-of-93835890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/parana-state-of-91781290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/blau-farmaceutica-sa-96789775 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gol-linhas-aereas-inteligentes-sa-83366465 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gol-linhas-aereas-sa-90627689 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-triangulo-sa-80543474 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omni-sa-credito-financiamento-e-investimento-89593461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omni-banco-sa-80543468 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-digimais-sa-89817862 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/drammen-rj-infraestrutura-e-redes-de-telecomunicacoes-sa-97272267 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-rodobens-sa-89100264 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/m-dias-branco-sa-industria-e-comercio-de-alimentos-96568122 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omega-geracao-sa-96480320 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sul-america-sa-84639069 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+1666186404105	geckodriver	INFO	Listening on 127.0.0.1:65060
+1666186407170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-dev-shm-usage" "--disable-blink-features" "--disable-blink-features=AutomationControlled" "--disable-infobars" "--disable-popup-blocking" "--disable-notifications" "--remote-debugging-port" "65061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileNOHIAY"
+*** You are running in headless mode.
+1666186407680	Marionette	INFO	Marionette enabled
+1666186407685	Marionette	INFO	Listening on port 65070
+WebDriver BiDi listening on ws://127.0.0.1:65061
+Read port: 65070
+1666186408040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileNOHIAY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65061/devtools/browser/e7e80d46-b6da-42c5-b955-f283444cf9eb
+JavaScript error: https://www.fitchratings.com/latest-rating-actions/#latest-rating-actions line 495 > injectedScript, line 1: TypeError: value is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://www.fitchratings.com/search/?expanded=entity&filter.country=Brazil&viewType=data line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://www.fitchratings.com/entity/br-malls-participacoes-sa-87213182 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sendas-distribuidora-s-a-97205339 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vinci-credito-infra-institucional-fundo-incentivado-de-investimento-em-infraestrutura-renda-fixa-97432394 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/armac-locacao-logistica-e-servicos-sa-97292519 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-1-2-smartfit-97430829 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-master-sa-97092715 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-fortbrasil-96584612 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-vale-do-itajai-viacredi-97229249 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/uniprime-norte-do-parana-cooperativa-de-credito-ltda-96207048 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-de-livre-admissao-de-goiania-e-regiao-ltda-sicoob-engecred-go-96741018 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-crediceripa-sicoob-crediceripa-96975124 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-credicitrus-sicoob-credicitrus-96730168 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-2-bcbf-97435470 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-3-bcbf-97435474 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-1-bcbf-97435461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cosan-sa-88173461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-bs2-sa-86837742 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centro-de-imagem-diagnosticos-sa-alliar-96507481 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fs-agrisolutions-industria-de-biocombustiveis-ltda-96862589 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cp-comercial-sa-97294985 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cpx-distribuidora-sa-97294988 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itr-comercio-de-pneus-e-pecas-sa-97295033 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/porto-seguro-investimentos-ltda-96510346 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-463-havan-97344099 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-96221293 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-cajuina-ab1-holdings-sa-97395448 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-tucano-holding-ii-sa-97281834 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/t-v-v-terminal-de-vila-velha-sa-97292252 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/uniao-quimica-farmaceutica-nacional-sa-90998502 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2022-1-2-dasa-97421532 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-pernambucana-de-gas-copergas-96353577 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-96547840 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gaia-securitizadora-sa-89311661 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/emergencia-participacoes-sa-97417637 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cscf-vert-5-97301961 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2020-212-grupo-mateus-96845855 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-mateus-97381497 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-2-3-assai-97419780 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2017-169-localiza-96576289 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-opea-agro-sumitomo-chemical-97384354 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/equatorial-energia-para-distribuidora-de-energia-sa-83541468 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/echoenergia-participacoes-sa-96662850 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/equatorial-transmissao-sa-97153792 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/celg-distribuicao-sa-95312890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mateus-supermercados-sa-96026490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-1-2-assai-97420336 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2016-74-mega-moda-97160467 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/hospital-mater-dei-sa-97281888 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/automotivo-fidc-96708595 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sao-paulo-municipality-of-93835890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/parana-state-of-91781290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/blau-farmaceutica-sa-96789775 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gol-linhas-aereas-inteligentes-sa-83366465 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gol-linhas-aereas-sa-90627689 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-triangulo-sa-80543474 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omni-sa-credito-financiamento-e-investimento-89593461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omni-banco-sa-80543468 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-digimais-sa-89817862 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/drammen-rj-infraestrutura-e-redes-de-telecomunicacoes-sa-97272267 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-rodobens-sa-89100264 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/m-dias-branco-sa-industria-e-comercio-de-alimentos-96568122 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omega-geracao-sa-96480320 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sul-america-sa-84639069 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bb-gestao-de-recursos-distribuidora-de-titulos-e-valores-mobiliarios-sa-96221299 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ccr-sa-80614467 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2022-1-mercado-livre-97410809 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-2-mercado-livre-97410838 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2021-428-429-assai-97278113 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-495-raia-drogasil-97349088 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-raia-drogasil-97392472 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-96710469 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mills-estruturas-e-servicos-de-engenharia-sa-96795007 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/isec-securitizadora-2019-64-sao-goncalo-shopping-97158676 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-securitizadora-de-creditos-financeiros-cartoes-consignados-ii-2022-1-2-97405571 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2021-325-vci-97136915 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2019-232-233-vci-96808579 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eletropaulo-metropolitana-eletricidade-de-sao-paulo-sa-80464130 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ampla-energia-e-servicos-sa-96591706 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-energetica-do-ceara-96574578 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/enel-green-power-volta-grande-sa-96819597 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/enel-brasil-sa-96574575 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-andbank-brasil-sa-97051967 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-2-3-oncoclinicas-97419631 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/xp-investimentos-sa-96655318 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/pottencial-seguradora-s-a-91880919 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-securitizadora-sa-96535838 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-96635600 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2020-1-2-raizen-97418731 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-societe-generale-brasil-sa-88390855 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/deutsche-bank-sa-banco-alemao-80362444 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/intesa-sanpaolo-brasil-sa-banco-multiplo-97233617 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-rabobank-international-brasil-sa-84077469 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-credit-agricole-brasil-sa-90520083 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rio-de-janeiro-city-of-90518082 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-de-investimentos-credit-suisse-brasil-sa-82443519 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/minerva-sa-84533869 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/inbrands-sa-91346491 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tucano-holdings-iii-sa-97282626 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2022-1-2-fs-97340470 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2022-167-2-fs-agri-97377838 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2022-167-1-fs-agri-97376143 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-de-direitos-creditorios-do-agronegocio-sa-97271758 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/octante-securitizadora-sa-97301621 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-norte-do-espirito-santo-sicoob-norte-96790664 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-sul-do-espirito-santo-sicoob-sul-96790661 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-leste-capixaba-sicoob-leste-capixaba-96790658 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-sul-serrana-do-espirito-santo-sicoob-sul-serrano-96722697 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-central-de-credito-do-espirito-santo-sicoob-central-es-96743383 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-dos-proprietarios-da-industria-de-rochas-ornamentais-cal-e-calcarios-do-estado-do-espirito-santo-sicoob-credirochas-96790654 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-centro-serrana-do-espirito-santo-sicoob-centro-serrano-96790672 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-sul-litoranea-do-espirito-santo-sicoob-sul-litoraneo-96790669 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/movida-locacao-de-veiculos-sa-97423224 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundacao-de-assistencia-e-previdencia-social-do-bndes-fapes-97278666 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/3r-petroleum-oleo-e-gas-sa-97357047 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bk-brasil-operacao-e-assessoria-restaurantes-sa-96269281 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-abc-brasil-sa-80543393 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bank-of-america-merrill-lynch-banco-multiplo-sa-93524890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/credito-universitario-fundo-de-investimento-em-direitos-creditorios-96969819 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/minerva-fundo-de-investimento-em-direitos-creditorios-credito-mercantil-88724458 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/instituto-hermes-pardini-sa-96608489 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edp-energias-do-brasil-sa-94762090 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/laboratorio-sabin-de-analises-clinicas-ltda-96350585 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2021-393-97228176 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-citibank-sa-80362437 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-inbursa-sa-96672806 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/goldman-sachs-do-brasil-banco-multiplo-sa-96473435 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-bocom-bbm-sa-80732935 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/novo-banco-continental-sa-banco-multiplo-97135767 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rio-de-janeiro-state-of-90803890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/santa-catarina-state-of-91758690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-sumitomo-mitsui-brasileiro-sa-97252790 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/travessia-delta-securitizadora-de-creditos-mercantis-sa-97241200 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mrv-engenharia-e-participacoes-sa-87835783 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/donus-fundo-de-investimento-em-direitos-creditorios-97167346 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sociedade-de-abastecimento-de-agua-e-saneamento-sa-96230976 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/atento-brasil-sa-88576187 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-gas-de-minas-gerais-gasmig-96692279 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-bullla-cartoes-97246112 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2019-1-zilor-96818580 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/unimed-rio-cooperativa-de-trabalho-medico-do-rio-de-janeiro-92139899 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/unimed-rio-participacoes-e-investimentos-s-a-92130095 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-economia-e-credito-mutuo-dos-medicos-de-porto-alegre-ltda-unicred-porto-alegre-97402946 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/oncoclinicas-do-brasil-servicos-medicos-sa-97385347 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/isec-securitizadora-2021-203-xp-97216329 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/transmissora-alianca-de-energia-eletrica-sa-90901890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-mercedes-benz-do-brasil-sa-91896832 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-gmac-sa-90420088 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-de-lage-landen-brasil-sa-96897877 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-cnh-industrial-capital-sa-80597992 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-john-deere-sa-96800840 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-fidis-sa-80732941 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-1-2-3-rede-d-or-97412406 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-3-cogna-97402940 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-2-cogna-97402939 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-1-cogna-97402909 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/portoseg-sa-credito-financiamento-e-investimento-96477909 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/raizen-combustiveis-sa-91300899 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/raizen-energia-s-a-91300896 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/caixa-distribuidora-de-titulos-e-valores-mobiliarios-sa-97327792 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-de-desenvolvimento-do-espirito-santo-sa-97043997 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-regional-de-desenvolvimento-do-extremo-sul-brde-85210273 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-pine-sa-80361070 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-2022-1-duratex-97396005 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/agencia-de-fomento-do-estado-de-santa-catarina-sa-badesc-96804570 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-de-direitos-creditorios-do-agronegocio-sa-2022-1-2-dexco-97396008 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mpm-corporeos-sa-97252184 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/agencia-de-fomento-do-estado-de-sao-paulo-desenvolve-sp-96165830 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bradseg-participacoes-sa-97341773 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-transmissao-de-energia-eletrica-paulista-sa-cteep-87797443 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/inss-consignado-pdl-i-fundo-de-investimento-em-direitos-creditorios-97353548 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/btg-pactual-asset-management-dtvm-sa-90404869 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rio-oil-finance-trust-94216093 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-saneamento-basico-do-estado-de-sao-paulo-sabesp-80614473 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/celg-distribuicao-fundo-de-investimento-em-direitos-mercantis-96159082 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sao-paulo-state-of-90237272 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/estado-de-alagoas-97074243 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/maranhao-state-of-92198092 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cielo-sa-90377667 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/unidas-sa-87045755 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/localiza-rent-car-sa-90199061 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/localiza-fleet-sa-96673245 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-locacao-das-americas-locamerica-89286661 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/multiplan-empreendimentos-imobiliarios-sa-96177986 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-bradesco-sa-80089720 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banestes-sa-banco-do-estado-do-espirito-santo-94984690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itau-unibanco-holding-sa-80609415 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-do-estado-do-rio-grande-do-sul-sa-80480833 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brb-banco-de-brasilia-sa-93215290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-btg-pactual-sa-80543465 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-daycoval-sa-80543450 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-da-amazonia-sa-80543406 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-do-nordeste-do-brasil-sa-80092110 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/caixa-economica-federal-80092109 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-nacional-de-desenvolvimento-economico-e-social-bndes-80089767 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/b3-sa-brasil-bolsa-balcao-97156065 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/btg-pactual-holding-sa-92310290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itau-unibanco-sa-80089723 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-pan-sa-80480836 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazil-loan-trust-i-92784112 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/duratex-sa-80614501 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/engie-brasil-energia-sa-80090870 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mrs-logistica-sa-mrs-80091464 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/alupar-investimento-sa-86661526 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/globo-comunicacao-e-participacoes-sa-87246572 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ache-laboratorios-farmaceuticos-sa-90982911 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rede-dor-sao-luiz-sa-96193829 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cesp-companhia-energetica-de-sao-paulo-97003909 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cemig-geracao-e-transmissao-sa-84963873 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cemig-distribuicao-sa-83827065 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-energetica-de-minas-gerais-cemig-80614480 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/petroleo-brasileiro-sa-petrobras-80090802 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/transportadora-associada-de-gas-sa-tag-96625934 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-gas-de-sao-paulo-comgas-91325765 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-minas-gerais-distribuidora-de-energia-s-a-83598868 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-sa-83598865 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aegea-saneamento-e-participacoes-sa-91565696 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-sergipe-distribuidora-de-energia-s-a-83215018 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-paraiba-distribuidora-de-energia-s-a-83215024 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/b2w-companhia-digital-87043556 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/simpar-sa-97012100 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rumo-sa-80614433 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/jsl-sa-90188261 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/movida-participacoes-sa-96487716 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/compass-gas-e-energia-sa-97270144 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2022-2-armac-97398158 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2022-1-armac-97396408 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cibrasec-companhia-brasileira-de-securitizacao-96645281 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-cia-de-securitizacao-2020-261-jsl-97043282 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2019-1-2-vamos-96802147 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-de-direitos-creditorios-do-agronegocio-2019-1-2-jsl-96782054 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-cia-de-securitizacao-2020-268-jsl-97043536 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-securitizadora-2019-21-vamos-96711927 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rodobens-sa-97239694 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazil-80442191 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-rio-teresopolis-sa-crt-85197673 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/votorantim-cimentos-sa-vcsa-90449272 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/votorantim-sa-82069029 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/teekay-shuttle-tanker-finance-llc-92600093 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/csn-mineracao-sa-97398072 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/nexa-resources-sa-96494566 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vamos-locacao-de-caminhoes-maquinas-e-equipamentos-sa-96704030 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/log-in-logistica-intermodal-sa-96910097 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edenemerald-hez-fidc-97359785 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edentourmaline-han-fidc-97359786 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bari-securitizadora-2022-1-rni-97402482 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/j-macedo-sa-96481693 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-central-de-credito-com-interacao-solidaria-central-cresol-baser-97078781 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-central-de-credito-ailos-97229433 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-cielo-96522351 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-saneamento-do-parana-sanepar-96358618 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/empreendimentos-pague-menos-sa-91480690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mc-brazil-downstream-participacoes-sa-97236732 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itu-fundo-de-investimento-em-cotas-de-fundos-de-investimento-em-direitos-creditorios-95444290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-siderurgica-nacional-csn-80091767 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/br-eletro-fundo-de-investimento-em-direitos-creditorios-96859673 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/apolo-fidc-eletrobras-96813061 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/dmcard-securitizadora-sa-96858758 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/br-partners-banco-de-investimento-sa-94195914 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-dmcard-96711114 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eneva-sa-96740180 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-xp-sa-97172367 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fortbrasil-administradora-de-cartoes-de-credito-sa-97172463 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-saneamento-de-minas-gerais-copasa-94017690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/smartfit-escola-de-ginastica-e-danca-sa-96173422 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/essencis-solucoes-ambientais-sa-90209862 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/solvi-participacoes-sa-92771293 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-original-sa-87107809 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-cia-de-securitizacao-2015-123-97171205 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2012-75-97171206 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gaia-securitizadora-2013-43-97161532 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gaia-securitizadora-2011-31-97173816 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2019-214-rede-dor-96786360 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2017-165-rede-d-or-96786358 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2019-208-209-rede-d-or-96786355 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2018-184-rede-d-or-96786350 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizazco-2018-157-rede-d-or-96786349 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2018-188-rede-d-or-96647439 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-sec-companhia-de-securitizacao-2021-396-rede-d-or-97297984 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-sec-companhia-de-securitizacao-2021-397-rede-d-or-97298488 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/isec-securitizadora-2021-1-jbs-97159623 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/isec-securitizadora-2021-2-jbs-97159596 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-cia-de-securitizacao-2020-1-jbs-97070194 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-cia-de-securitizacao-2020-2-jbs-97070205 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2019-1-2-jbs-96798868 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-sec-companhia-de-securitizacao-2021-1-2-marfrig-97239333 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brasil-bio-fuels-sa-97192017 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/reag-gestora-de-recursos-ltda-96552069 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/general-shopping-e-outlets-do-brasil-sa-89879673 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/usinas-siderurgicas-de-minas-gerais-sa-usiminas-84742070 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/pastificio-selmi-sa-96566506 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-geracao-e-transmissao-de-energia-eletrica-do-sul-do-brasil-eletrobras-cgt-eletrosul-97082954 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centrais-eletricas-brasileiras-sa-eletrobras-80464173 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-hidro-eletrica-do-sao-francisco-sa-95763491 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\lucas\AppData\Local\Temp\rust_mozprofileNOHIAY\thumbnails) because it does not exist
+JavaScript error: https://www.fitchratings.com/entity/banco-do-estado-de-sergipe-sa-90253862 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ser-educacional-sa-96163650 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-tocantins-distribuidora-de-energia-s-a-96689844 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-mato-grosso-do-sul-distribuidora-de-energia-sa-96223276 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/alsol-energias-renovaveis-96810835 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-mato-grosso-distribuidora-de-energia-sa-96223279 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-rondonia-distribuidora-de-energia-sa-97096965 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-acre-distribuidora-de-energia-sa-97096959 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-sul-sudeste-distribuidora-de-energia-s-a-96689833 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/energisa-transmissao-de-energia-sa-96724735 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/multilaser-industrial-sa-97348932 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gerdau-sa-82273687 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sanasa-fundo-de-investimento-em-direitos-creditorios-96285929 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/telefonica-brasil-sa-88576199 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-paranaense-de-energia-copel-80614489 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/copel-geracao-e-transmissao-sa-96167039 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/copel-distribuicao-sa-96382097 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/occam-brasil-gestao-de-recursos-ltda-96672817 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ubyfol-agro-fundo-de-investimentos-em-direitos-creditorios-iii-97199201 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-ouze-97347495 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/azul-sa-94775300 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ultrafertil-sa-96174694 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vli-multimodal-sa-96166129 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vli-sa-94391490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-do-brasil-sa-80089721 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-96463450 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cogna-educacao-sa-92741290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/saber-servicos-educacionais-sa-96663570 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/somos-sistemas-de-ensino-sa-97273134 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-500-rede-d-or-97370408 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-509-rede-d-or-97370854 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2022-508-rede-d-or-97370848 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/jbs-sa-87468174 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-credz-96386527 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-9-cscf-agibank-97353353 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rumo-malha-norte-sa-80614513 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rumo-malha-sul-sa-87217992 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rumo-malha-paulista-sa-87217976 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aliansce-sonae-shopping-centers-sa-96177979 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2011-79-97008016 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-cooperativo-sicredi-sa-93581090 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-cooperativo-do-brasil-sa-80543444 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/moura-dubeux-engenharia-sa-89335664 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/hidrovias-do-brasil-sa-96584762 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/copobras-s-a-industria-e-comercio-de-embalagens-97199208 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-catarinense-de-aguas-e-saneamento-casan-92740312 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-96263884 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bbm-logistica-sa-96781670 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-bb-votorantim-highland-infraestrutura-93034891 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bradesco-seguros-sa-80091496 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edf-norte-fluminense-sa-96150022 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/travessia-securitizadora-de-creditos-financeiros-ix-sa-97011367 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-96504318 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-unicred-sul-catarinense-ltda-unicred-sul-catarinense-96856408 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-dos-medicos-profissionais-da-saude-e-empresarios-de-mato-grosso-96722694 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-central-de-economia-e-credito-mutuo-das-unicred-de-santa-catarina-e-do-parana-ltda-unicred-central-sc-pr-96853535 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cooperativa-de-credito-unicred-da-grande-florianopolis-ltda-unicred-florianopolis-96855758 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-96336235 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-tamandare-97173811 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizacao-2022-437-clamed-97346022 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/corteva-agriscience-fundo-de-investimento-em-direitos-creditorios-i-96834158 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2021-1-brf-97228641 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2020-2-brf-97013158 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-2020-1-brf-97009515 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sociedade-beneficente-israelita-brasileira-hospital-albert-einstein-96628807 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/lm-transportes-interestaduais-servicos-e-comercio-sa-96610167 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brf-sa-90455677 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/anima-holding-sa-94141490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-brasil-operacoes-sa-97379391 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-tiete-energia-sa-96757741 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/klabin-sa-90196280 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tegma-gestao-logistica-sa-96789056 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/nascentes-do-xingu-participacoes-e-administracao-sa-96544073 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aguas-guariroba-sa-89867861 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/prolagos-sa-concessionaria-de-servicos-publicos-de-agua-e-esgoto-89867865 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aguas-de-teresina-saneamento-spe-sa-96568164 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-sofisa-sa-80480839 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-alfa-de-investimento-sa-80089825 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/matrix-comercializadora-de-energia-eletrica-sa-96506072 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-luso-brasileiro-sa-96286652 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-fibra-sa-80360734 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tupy-sa-94298109 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/top-service-servicos-e-sistemas-sa-96705554 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/iochpe-maxion-sa-91272090 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/plural-investimentos-gestao-de-recursos-ltda-96827685 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brasil-plural-gestao-de-recursos-ltda-91932293 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-brasileira-de-distribuicao-sa-cbd-80438369 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-10-companhia-securitizadora-de-creditos-financeiros-crediare-cfi-97352652 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizacao-2022-1-2-3-norsa-97354020 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/empresa-brasileira-de-engenharia-e-comercio-sa-ebec-97368698 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizacao-2022-1-jbs-97357187 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizacao-2022-3-97358349 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizaco-2022-2-97358348 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/natura-cosmeticos-sa-90714090 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/natura-co-holding-sa-96974641 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/andrade-gutierrez-engenharia-sa-92449890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-securitizadora-sa-96514181 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/c-a-modas-sa-97131987 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/supplier-administradora-de-cartoes-de-credito-sa-92881697 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-sec-companhia-de-securitizacao-2021-347-aliansce-97233576 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-96486616 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/impar-servicos-hospitalares-sa-96827709 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/diagnosticos-da-america-sa-dasa-86681525 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/kora-saude-participacoes-sa-97357794 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/intercement-brasil-sa-92950497 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/intercement-participacoes-sa-92950500 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-sa-97355910 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vtrm-energia-participacoes-sa-97036543 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/restoque-comercio-e-confeccoes-de-roupas-sa-93935490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-2018-14-vli-96677518 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/salus-infraestrutura-portuaria-sa-1st-issuance-96514185 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gaia-securitizadora-sa-96275335 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/oec-sa-97170394 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/dollar-diversified-payment-rights-finance-company-96767316 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-sec-companhia-de-securitizacao-2021-14-eldorado-brasil-97291861 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-gas-da-bahia-bahiagas-96617901 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundacao-petrobras-de-seguridade-social-petros-97346837 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2018-103-einstein-96656848 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2021-1-vix-97218621 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-cielo-emissores-ii-97181965 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-cielo-emissores-i-97180763 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/guararapes-confeccoes-sa-95232490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eldorado-brasil-celulose-sa-96152344 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vix-logistica-sa-96174956 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/suzano-sa-80092054 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cm-hospitalar-sa-97346594 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2011-269-97160436 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2011-253-97160450 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2011-247-97161536 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2011-219-97160426 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2011-235-97160427 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2010-156-97160461 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-2009-130-97161558 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aete-amazonia-empresa-transmissora-de-energia-sa-97129815 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-farm-syngenta-agronegocio-1-96798643 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/totvs-sa-96738486 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/saneamento-de-goias-sa-saneago-80361245 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cartao-de-compra-supplier-fundo-de-investimentos-em-direitos-creditorios-90642491 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/debenture-estruturada-solfarma-97095576 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mercado-credito-sociedade-de-credito-financiamento-e-investimento-sa-97173030 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itaipu-binacional-94381891 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2020-1-2-raizen-96972514 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-series-2019-1-2-raizen-96774362 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rni-negocios-imobiliarios-sa-89317063 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizacao-2022-436-clamed-97341573 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/true-securitizadora-2022-18-selmi-97329355 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/athena-saude-brasil-sa-97268134 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bcbf-participacoes-sa-96798102 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/hapvida-participacoes-e-investimentos-sa-96783531 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-infraestrutura-iv-fidc-saneago-iv-2015-1-96211357 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-light-96604914 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/andre-maggi-participacoes-sa-97060206 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/lar-cooperativa-agroindustrial-97224267 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/inpasa-agroindustrial-s-a-96819987 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/marfrig-global-foods-sa-87227374 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ouro-verde-locacao-e-servico-sa-88650059 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2022-417-csn-cimentos-97341305 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mercadolivrecom-atividades-de-internet-ltda-97074420 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mercadopagocom-representacoes-ltda-97074397 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-securitizadora-de-creditos-financeiros-cartoes-consignados-bmg-96514750 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-securitizadora-de-creditos-financeiros-cartoes-consignados-ii-96799488 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cpfl-energia-sa-80492394 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-paulista-de-forca-e-luz-cpfl-80614495 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cpfl-geracao-de-energia-sa-94139890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cia-piratininga-de-forca-e-luz-sa-91549891 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cpfl-energias-renovaveis-sa-96223356 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rge-sul-distribuidora-de-energia-sa-96554699 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/grupo-sbf-sa-96660728 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sbf-comercio-de-produtos-esportivos-sa-97028200 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/foz-do-rio-claro-energia-sa-97281038 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/guara-norte-sa-rl-97044825 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco-securitizadora-2022-1-2-3-97343669 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/braskem-sa-80092141 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vale-sa-80090452 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/jalles-machado-sa-92729690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sicredi-asset-management-96720179 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bradespar-sa-87072170 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gsh-corp-participacoes-sa-97344983 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/farmacia-e-drogaria-nissei-sa-97127704 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-companhia-de-securitizacao-92839290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mv24-capital-bv-96723498 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aeris-industria-e-comercio-de-equipamentos-para-geracao-de-energia-sa-97108213 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/embraer-sa-94402890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ncf-participacoes-sa-96352752 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ambipar-participacoes-e-empreendimentos-sa-97338527 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/light-sa-91040693 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/light-energia-sa-91019690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/light-servicos-de-eletricidade-sa-91050690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/sbm-baleia-azul-sarl-91316787 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/arx-investimentos-ltda-90446870 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/raia-drogasil-sa-96487134 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/isec-securitizadora-2021-1-m-dias-branco-97123815 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/isec-securitizadora-2021-2-m-dias-branco-97123816 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/swiss-insured-brazil-power-finance-sarl-96561180 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/nova-transportadora-do-sudeste-sa-nts-96606450 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/unigel-participacoes-sa-96622258 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bnp-paribas-asset-management-brasil-ltda-95356890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itau-asset-management-88910070 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/saneamento-ambiental-aguas-do-brasil-sa-92753891 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-aguas-de-juturnaiba-sa-97070967 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/patria-credito-estruturado-fundo-de-investimento-em-direitos-creditorios-96471866 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-fornecedores-crb-96658889 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/alianca-geracao-de-energia-sa-96605787 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-de-agua-e-esgoto-do-ceara-cagece-97073066 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vert-companhia-securitizadora-96764451 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/unipar-carbocloro-sa-96594045 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-np-energisa-iv-centro-oeste-96219538 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eurofarma-laboratorios-sa-96581229 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-91931696 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/reag-securities-securitizadora-de-credito-sa-96376113 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/oi-sa-80090797 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/norsa-refrigerantes-sa-96784265 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/solar-bebidas-sa-97327228 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundo-de-investimento-em-direitos-creditorios-tramontina-i-97277721 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/iguatemi-empresa-de-shopping-centers-sa-91834892 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-mercadopago-97090952 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/syngenta-tech-i-fundo-de-investimento-em-direitos-creditorios-97218628 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/viart-vice-presidencia-de-administracao-e-gestao-de-ativos-de-terceiros-91921139 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fidc-imperium-ccear-96710887 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/guimarania-ii-solar-spe-sa-97048392 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/guimarania-i-solar-spe-sa-97048201 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bram-bradesco-asset-management-sa-distribuidora-de-titulos-e-valores-mobiliarios-96509631 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/celesc-geracao-sa-96258686 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centrais-eletricas-de-santa-catarina-sa-88576124 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/celesc-distribuicao-sa-90866490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/pbg-s-a-97027261 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-cia-de-securitizacao-2021-378-hapvida-97300765 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/opea-securitizadora-sa-2011-73-vibra-energia-97396684 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-companhia-de-securitizacao-91840491 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2021-2-jbs-97300326 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/virgo-companhia-de-securitizacao-2021-1-jbs-97297985 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/kinea-infra-fundo-de-investimento-em-cotas-de-fundos-de-inverstimento-em-direitos-creditorios-de-infraestrutura-96712925 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/travessia-securitizadora-sa-97051002 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-riograndense-de-saneamento-corsan-97071542 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-inter-sa-90601495 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-rendimento-sa-80543471 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/olimpia-fidc-97287098 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/bancoob-distribuidora-de-titulos-e-valores-mobiliarios-ltda-94430690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tim-sa-97088596 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brb-distribuidora-de-titulos-e-valores-mobiliarios-sa-97056912 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-agibank-sa-96590852 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-mercantil-do-brasil-sa-80360917 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/banco-bmg-sa-80543435 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/parana-banco-sa-87015752 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/acucareira-quata-sa-96624023 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/contour-global-do-brasil-participacoes-sa-96630805 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vinci-energia-sustentavel-fundo-de-investimento-em-direitos-creditorios-96577741 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/safra-asset-management-ltda-88910072 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vinci-gestao-de-patrimonio-ltda-96586405 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/interservicer-servicos-em-credito-imobiliario-ltda-95859092 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rb-capital-asset-management-ltda-92095690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vinci-equities-gestora-de-recursos-ltda-91921690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/stk-capital-gestora-de-recursos-ltda-92065690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brazilian-securities-companhia-de-securitizacao-95839491 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fator-administracao-de-recursos-ltda-88910064 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/perfin-administracao-de-recursos-ltda-93733490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/fundacao-dos-economiarios-federais-funcef-96277559 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/hsbc-gestao-de-recursos-ltda-88910067 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/hsbc-multimanager-funds-brazil-88910060 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/petrobras-global-finance-bv-pgf-91834297 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vale-overseas-limited-90597684 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/schroder-investment-management-brasil-ltda-90422065 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/equitas-administracao-de-fundos-de-investimentos-ltda-91226121 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/general-shopping-investment-limited-90748293 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/general-shopping-finance-limited-gsf-89880061 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-brasileira-de-aluminio-sa-90449466 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/habitasec-securitizadora-sa-92547692 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gol-finance-inc-90627694 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ecorodovias-concessoes-e-servicos-sa-96637229 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/supervia-concessionaria-de-transporte-ferroviario-sa-91887890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-do-rodoanel-oeste-sa-87877185 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aquapolo-ambiental-sa-89478661 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/complexo-morrinhos-energias-renovaveis-sa-96183875 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/brk-ambiental-manso-sa-94377892 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eolica-serra-das-vacas-holding-ii-sa-96558619 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-sao-vicente-participacoes-energias-renovaveis-sa-96513231 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/santa-vitoria-do-palmar-energias-renovaveis-sa-96512668 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/esperanza-transmissora-de-energia-sa-96549959 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/odoya-transmissora-de-energia-sa-96546310 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/paranaiba-transmissora-de-energia-sa-96333699 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/windepar-holding-sa-96416378 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/enel-green-power-damascena-eolica-sa-96386789 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/enel-green-power-manicoba-eolica-sa-96386802 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/viarondon-concessionaria-de-rodovia-sa-96366671 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/delta-2-energia-sa-96276236 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/itarema-geracao-de-energia-sa-96274678 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-sao-jorge-holding-sa-96358472 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/voltalia-sao-miguel-do-gostoso-participacoes-sa-96150572 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/companhia-energetica-sinop-sa-96152663 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-sao-clemente-holding-sa-96215360 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eolica-serra-das-vacas-holding-sa-96337693 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-rodovia-dos-tamoios-sa-97339005 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rio-alto-stl-holding-i-sa-97341587 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aeroportos-brasil-viracopos-sa-91565490 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ferreira-gomes-energia-sa-91842691 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/prumo-participacoes-e-investimentos-s-a-96158821 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-santo-estevao-holding-sa-96568227 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/guaraciaba-transmissora-de-energia-tp-sul-sa-96573863 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/central-fotovoltaica-sao-pedro-ii-ltda-96836823 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/central-fotovoltaica-sao-pedro-iv-ltda-96836831 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edp-transmissao-alianca-sc-sa-96706287 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cutia-empreendimentos-eolicos-sa-96751593 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mata-de-santa-genebra-transmissao-sa-96675404 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/linhas-de-taubate-transmissora-de-energia-sa-95105090 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/porto-primavera-transmissora-de-energia-sa-96704406 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/solaris-transmissao-de-energia-sa-97273655 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/borborema-transmissao-de-energia-sa-97273640 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/linhas-de-xingu-transmissora-de-energia-sa-97159771 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tesc-terminal-santa-catarina-sa-97201281 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/cantareira-transmissora-de-energia-sa-96581278 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/porto-do-acu-operacoes-sa-91227890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/aes-tiete-eolica-sa-95442890 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/spe-transmissora-de-energia-linha-verde-ii-sa-96869351 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tsm-transmissora-serra-da-mantiqueira-sa-96829712 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/belo-monte-transmissora-de-energia-spe-sa-96563152 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/arcoverde-transmissao-de-energia-sa-96798294 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/se-vineyards-transmissao-de-energia-sa-96798394 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-sao-joao-xxiii-energias-renovaveis-sa-97393068 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centrais-eolicas-de-caetite-participacoes-sa-96168854 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tcc-transmissora-caminho-do-cafe-sa-96698895 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tpe-transmissora-paraiso-de-energia-sa-96698878 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/etb-empresa-de-transmissao-baiana-sa-96726939 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edte-empresa-diamantina-de-transmissao-de-energia-sa-96723959 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/empresa-de-energia-cachoeira-caldeirao-sa-95535290 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mez-5-energia-sa-97285153 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessao-metroviaria-do-rio-de-janeiro-sa-metrorio-91062690 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/pirapora-solar-holding-sa-96601674 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/norte-energia-s-a-96811901 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/edp-transmissao-sp-mg-sa-96784533 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eco050-concessionaria-de-rodovias-sa-96896274 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/empresa-sudeste-de-transmissao-de-energia-sa-96858544 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/copacabana-geracao-de-energia-e-participacoes-sa-96609843 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/omega-energia-e-implantacao-2-sa-96552474 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ip-sul-concessionaria-de-iluminacao-publica-sa-97101669 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-ponte-rio-niteroi-sa-ecoponte-96735368 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/eren-dracena-participacoes-sa-96799550 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/apollo-17-participacoes-sa-97115286 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vdb-f2-geracao-de-energia-sa-96763362 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-da-rodovia-ms-306-sa-97115282 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/electra-pch-buriti-spe-sa-96752776 line 495 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tibagi-energia-spe-sa-96795630 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/serras-holding-sa-96362577 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/matrincha-transmissora-de-energia-tp-norte-sa-96276320 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-rota-das-bandeiras-sa-91868491 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-do-aeroporto-internacional-de-guarulhos-sa-91824291 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-sao-tito-holding-sa-96203309 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/centrais-eletricas-de-pernambuco-sa-89479061 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/arteris-sa-94934690 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/ventos-de-sao-tome-holding-sa-95253890 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/natura-co-luxembourg-holdings-sa-rl-97375551 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/azul-investments-llp-96664012 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rincao-dos-albinos-energetica-sa-97007196 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rincao-sao-miguel-energetica-sa-97007595 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/salto-do-guassupi-energetica-sa-97007185 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vila-piaui-2-empreendimentos-e-participacoes-sa-97005324 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/vila-piaui-1-empreendimentos-e-participacoes-sa-97005316 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/verde-08-energia-sa-96648754 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/anemus-wind-holding-sa-97252774 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/rodovias-do-brasil-holding-sa-97193080 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/via-brasil-mt-320-concessionaria-de-rodovias-sa-97134673 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/santo-antonio-energia-sa-91718290 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/tcp-terminal-de-conteineres-de-paranagua-sa-96368363 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/nbm-us-holdings-inc-96765841 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/gusap-iii-lp-96836871 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/usiminas-international-sa-rl-96787973 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/mc-brazil-downstream-trading-sarl-97258479 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/concessionaria-rota-do-atlantico-sa-97285847 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/quevedos-energetica-sa-97007608 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://www.fitchratings.com/entity/movida-europe-97129162 line 524 > injectedScript, line 1: ReferenceError: user_id is not defined
+JavaScript error: https://js.idio.co/376.js, line 1: ReferenceError: $ is not defined
+1666192797451	Marionette	INFO	Stopped listening on port 65070
