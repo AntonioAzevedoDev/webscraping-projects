@@ -1,6 +1,6 @@
 LOGIN_URL = 'https://www.spglobal.com/ratings/pt/login'
-LOGIN_USR = 'leonardo.horta@sparta.com.br'
-LOGIN_PWD = 'Fpi_6C95XSrKNMv'
+LOGIN_USR = 'attEmail'
+LOGIN_PWD = 'attSenha'
 PR_URL = 'https://disclosure.spglobal.com/ratings/pt/regulatory/press-releases'
 PR_PATH = r'C:\Users\lucas\PycharmProjects\webscraping-projects-git\SP_Global\sp_data\br\press-releases'
 ACT_URL = 'https://disclosure.spglobal.com/ratings/pt/regulatory/ratings-actions'
