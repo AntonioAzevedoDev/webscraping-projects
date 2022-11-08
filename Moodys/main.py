@@ -8,6 +8,7 @@ if __name__ == '__main__':
     browser = utils.get_safe_setup(headless=False)
     try:
         moody.save_releases(browser)
+        moody.save_ratings(browser)
     except Exception as e:
         print(e)
         sleep(10)
