@@ -6,7 +6,7 @@ from Fitch.utils import utils
 
 if __name__ == '__main__':
     print('abrir browser')
-    browser = utils.get_safe_setup(headless=True)
+    browser = utils.get_safe_setup(headless=False)
     try:
         print(f'start: {datetime.now()}')
         fitch.save_actions(browser)

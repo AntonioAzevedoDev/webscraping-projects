@@ -3,6 +3,9 @@ from json import dump
 from pathlib import Path
 from time import sleep
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 from Fitch.utils import utils
 from Fitch.data import pathandcredentials as pc
 
@@ -41,6 +44,7 @@ def save_actions(browser, overwrite=False):
             }
         )
     print("salvar")
+    Path(pc.ACT_PATH).mkdir(parents=True, exist_ok=True)
     filepath = Path(pc.ACT_PATH) / f"s-{datetime.now().strftime('%Y%m%d')}.json"
     with open(filepath, "w", encoding="utf-8") as fp:
         dump(payload, fp, ensure_ascii=False, indent=1)
@@ -52,21 +56,26 @@ def save_action_commentary(browser, url_list, overwrite=False):
     try:
         for url in url_list:
             _url, file_name = url.split("@")
+            Path(pc.COM_PATH).mkdir(parents=True, exist_ok=True)
             filepath = Path(pc.COM_PATH) / file_name
             if not overwrite and filepath.exists():
                 continue
             browser.get(_url)
             sleep(4)
             payload = []
-
-            with open(filepath, "w") as arquivo:
-                title = browser.find_element(By.CSS_SELECTOR, ".heading--1").text
-                body = browser.find_element(By.CSS_SELECTOR, ".RAC")
-                for row in body.find_elements(By.TAG_NAME, f"p"):
-                    payload.append(row.text)
-                payload.insert(0, title)
-                for line in payload:
-                    arquivo.write(line)
+            try:
+                with open(filepath, "w") as arquivo:
+                    title = WebDriverWait(browser, 30).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, '.heading--1'))
+                    ).text
+                    body = browser.find_element(By.CSS_SELECTOR, ".RAC")
+                    for row in body.find_elements(By.TAG_NAME, f"p"):
+                        payload.append(row.text)
+                    payload.insert(0, title)
+                    for line in payload:
+                        arquivo.write(line)
+            except Exception as e:
+                print(e)
             sleep(2)
 
     except Exception as e:
@@ -81,6 +90,7 @@ def save_entities(browser, overwrite=False):
     utils.accept_cookies(browser)
     sleep(1)
     total_pages = utils.verify_pagination_entities(browser)
+    Path(pc.ENT_PATH).mkdir(parents=True, exist_ok=True)
     if total_pages > 1:
         header = [
             col.text
@@ -94,6 +104,8 @@ def save_entities(browser, overwrite=False):
         header3 = ""
         page_now = 1
         aux = 2
+        analyst_table = []
+        i = 2
         while page_now <= total_pages:
             try:
                 sleep(1)
@@ -117,13 +129,14 @@ def save_entities(browser, overwrite=False):
                         url_splited = utils.return_url_splited(url)
                         url_code = url_splited.pop()
                         name_file = f"{utils.hashed(url_code)}-{datetime.now().strftime('%Y%m%d')}.json"
+
                         filepath = Path(pc.ENT_PATH) / name_file
                         if not overwrite and filepath.exists():
                             aux += 1
                             continue
                         else:
                             rating_table = []
-                            i = 2
+
                             aux_detais = 0
                             while len(rating_table) == 0:
 
@@ -137,12 +150,12 @@ def save_entities(browser, overwrite=False):
                                         col.text
                                         for col in row.find_element(
                                             By.CSS_SELECTOR,
-                                            f"div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)",
+                                            f"div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(2)",
                                         ).find_elements(By.TAG_NAME, "td")
                                     ]
                                     rating_table_detailed = row.find_element(
                                         By.CSS_SELECTOR,
-                                        f"div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)",
+                                        f"div.column__four:nth-child({aux}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(2)",
                                     ).find_elements(By.TAG_NAME, "td")
 
                                     for details in rating_table_detailed:
@@ -167,26 +180,26 @@ def save_entities(browser, overwrite=False):
                                                 continue
 
                                         except Exception as e:
-
                                             continue
 
-                                    sector_and_country_table = [
-                                        col.text
-                                        for col in row.find_element(
-                                            By.CSS_SELECTOR,
-                                            f"div.column__four:nth-child({aux}) > div:nth-child(3)",
-                                        ).find_elements(By.TAG_NAME, "p")
-                                    ]
-                                    analyst_table = [
-                                        col.text
-                                        for col in row.find_element(
-                                            By.CSS_SELECTOR,
-                                            f"div.column__four:nth-child({aux}) > div:nth-child(4)",
-                                        ).find_elements(By.TAG_NAME, "p")
-                                    ]
                                 except Exception as ex:
-                                    continue
-                                i += 1
+                                    rating_table = ["-"]
+
+                            sector_and_country_table = [
+                                col.text
+                                for col in row.find_element(
+                                    By.CSS_SELECTOR,
+                                    f"div.column__four:nth-child({aux}) > div:nth-child(3)",
+                                ).find_elements(By.TAG_NAME, "p")
+                            ]
+                            analyst_table = [
+                                col.text
+                                for col in row.find_element(
+                                    By.CSS_SELECTOR,
+                                    f"div.column__four:nth-child({aux}) > div:nth-child(4)",
+                                ).find_elements(By.TAG_NAME, "p")
+                            ]
+
                             aux_skip = 0
                             aux_take = 4
 
@@ -213,11 +226,12 @@ def save_entities(browser, overwrite=False):
                             header1_splited = header1.strip().split("\n")
                             aux_skip = 0
                             aux_take = 2
-                            while aux_skip <= len(analyst_table):
-                                if aux_take > len(analyst_table):
-                                    break
-                                analyst_elements = analyst_table[aux_skip:aux_take]
-                                try:
+                            try:
+                                while aux_skip <= len(analyst_table):
+                                    if aux_take > len(analyst_table):
+                                        break
+                                    analyst_elements = analyst_table[aux_skip:aux_take]
+
                                     if header3 != "":
                                         header3 += (
                                             ","
@@ -227,14 +241,14 @@ def save_entities(browser, overwrite=False):
                                         )
                                     else:
                                         header3 += (
-                                            analyst_elements[0] + "," + analyst_elements[1]
+                                            analyst_elements[0] + "\n" + analyst_elements[1]
                                         )
 
                                     aux_skip += 2
                                     aux_take += 2
-                                except Exception as e:
-                                    continue
-                            header3_splited = header3.strip().split(",")
+                            except Exception as e:
+                                print(e)
+                            header3_splited = header3.strip().split("\n")
                             entity_name = row.text.split("\n")
                             if entity_name[0] == "ULTIMATE PARENT":
                                 entity_name[0] = entity_name[1]
@@ -312,6 +326,7 @@ def save_securities_and_obligations(browser, url_list, overwrite=False):
             print(f"Tamanho da lista {len(url_list)}")
             for url in url_list:
                 _url, file_name = url.split("@")
+                Path(pc.SEC_PATH).mkdir(parents=True, exist_ok=True)
                 filepath = Path(pc.SEC_PATH) / file_name
                 if not overwrite and filepath.exists():
                     continue
@@ -320,8 +335,8 @@ def save_securities_and_obligations(browser, url_list, overwrite=False):
                     sleep(5)
                     payload = []
                     table_rows = []
-                    section = browser.find_element(
-                        By.CSS_SELECTOR, ".main > article:nth-child(1)"
+                    section = WebDriverWait(browser, 30).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, '.main > article:nth-child(1)'))
                     ).find_elements(By.TAG_NAME, f"section")
                     sleep(1)
 
@@ -374,18 +389,30 @@ def save_securities_and_obligations(browser, url_list, overwrite=False):
                                     class_name = row_elements[1].find_elements(
                                         By.TAG_NAME, f"span"
                                     )
-
-                                    while aux_span <= len(class_name):
-                                        class_attribute_name = class_name[
-                                            aux_span
-                                        ].get_attribute("class")
-                                        if (
-                                            class_attribute_name != ""
-                                            and class_attribute_name
-                                            != "link--1 link--3"
-                                        ):
-                                            break
-                                        aux_span += 1
+                                    if len(class_name) == 1:
+                                        while aux_span <= len(class_name):
+                                            class_attribute_name = class_name[
+                                                aux_span
+                                            ].get_attribute("class")
+                                            if (
+                                                class_attribute_name != ""
+                                                and class_attribute_name
+                                                != "link--1 link--3"
+                                            ):
+                                                break
+                                            aux_span += 1
+                                    else:
+                                        while aux_span <= (len(class_name)-1):
+                                            class_attribute_name = class_name[
+                                                aux_span
+                                            ].get_attribute("class")
+                                            if (
+                                                class_attribute_name != ""
+                                                and class_attribute_name
+                                                != "link--1 link--3"
+                                            ):
+                                                break
+                                            aux_span += 1
                                 except Exception as e:
                                     continue
                                 if (
