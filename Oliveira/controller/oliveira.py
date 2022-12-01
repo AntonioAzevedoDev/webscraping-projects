@@ -4,6 +4,8 @@ from pathlib import Path
 from time import sleep
 import json
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from Oliveira.utils import utils
 from Oliveira.data import pathandcredentials as pc
@@ -15,7 +17,14 @@ def save_cra(browser, overwrite=False):
     browser.get(pc.CRA_URL)
     sleep(5)
     aux = 0
-    browser.find_element(By.CSS_SELECTOR,'div.searchbar-filter-type-container:nth-child(4) > div:nth-child(1) > button:nth-child(1)').click()
+    WebDriverWait(browser, 999).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR,
+                                        'div.title:nth-child(4)'))
+    )
+    cra_button = WebDriverWait(browser, 999).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, 'div.searchbar-filter-type-container:nth-child(4) > div:nth-child(1) > button:nth-child(1)'))
+    )
+    cra_button.click()
     sleep(2)
     while True:
         actives = browser.find_element(By.CSS_SELECTOR, '.titles-container').find_elements(By.CLASS_NAME, 'title')
@@ -26,7 +35,10 @@ def save_cra(browser, overwrite=False):
             except Exception as r:
                 break
             sleep(2)
-            header_data = browser.find_element(By.CSS_SELECTOR, '.details-resume-content')
+            header_data = WebDriverWait(browser, 999).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR,
+                                                '.details-resume-content'))
+            )
             name = header_data.find_element(By.CSS_SELECTOR, '.details-name').text
             emissor = browser.find_element(By.CSS_SELECTOR,'div.details-item:nth-child(1) > div:nth-child(2)').text
             codigo = browser.find_element(By.CSS_SELECTOR,'div.details-item:nth-child(3) > div:nth-child(2)').text
@@ -40,7 +52,10 @@ def save_cra(browser, overwrite=False):
                 break
             else:
                 serie = header_data.find_element(By.CSS_SELECTOR, '.details-title-name').text
-                header_data = f'"Nome: ":"{name}","Serie": "{serie}"'
+                serie_details = serie.split(' ')
+                header_data = f'"Nome: ":"{name}"'
+                header_data += f',"Serie":"{serie_details[1]}"'
+                header_data += f',"Emissao":"{serie_details[2]}"'
                 body_series = browser.find_element(By.CSS_SELECTOR, '.details-items').find_elements(By.CLASS_NAME, 'details-item')
                 series_data = ''
                 emission_data = ''
@@ -80,6 +95,16 @@ def save_cra(browser, overwrite=False):
                         continue
                 emission_data = "{" + emission_data + "}"
                 sleep(2)
+                #Find documents
+                browser.find_element(By.CSS_SELECTOR,'.fa-chevron-down').click()
+                documents = browser.find_element(By.CSS_SELECTOR,'.details-downloads > div:nth-child(1) > div:nth-child(2)').find_elements(By.TAG_NAME,'a')
+                documents_text = ''
+                for doc in documents:
+                    if documents_text != '':
+                        documents_text += f',"{doc.get_attribute("text")}":"{doc.get_attribute("href")}"'
+                    else:
+                        documents_text += f'"{doc.get_attribute("text")}":"{doc.get_attribute("href")}"'
+                documents_text = "{" + documents_text + "}"
                 #Go back
                 browser.find_element(By.CSS_SELECTOR, '.fa-arrow-left').click()
                 sleep(2)
@@ -90,9 +115,11 @@ def save_cra(browser, overwrite=False):
                 json_header = json.loads(header_data)
                 json_serie = json.loads(series_data)
                 json_emission = json.loads(emission_data)
+                json_documents = json.loads(documents_text)
                 payload = json_header
-                payload["Série"] = json_serie
+                payload["Descrição da Série"] = json_serie
                 payload["Emissão"] = json_emission
+                payload["Documentos"] = json_documents
                 try:
                     print(f"salvar {name}")
                     Path(pc.CRA_PATH).mkdir(parents=True, exist_ok=True)
