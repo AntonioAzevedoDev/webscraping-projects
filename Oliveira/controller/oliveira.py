@@ -61,17 +61,14 @@ def save_cra(browser, overwrite=False):
                 emission_data = ''
                 for series_item in body_series:
                     data = series_item.text.split('\n')
-                    if data[0] == 'Atualização Monetária:' or data[0] == 'Valor Nominal:' or data[0] == 'Quantidade de ativos:':
+                    try:
+                        if series_data != '':
+                            series_data += f',"{data[0].replace(":","")}":"{data[1]}"'
+                        else:
+                            series_data += f'"{data[0].replace(":","")}":"{data[1]}"'
+                    except Exception as e:
+                        series_data += f',"{data[0].replace(":","")}":"-"'
                         continue
-                    else:
-                        try:
-                            if series_data != '':
-                                series_data += f',"{data[0].replace(":","")}":"{data[1]}"'
-                            else:
-                                series_data += f'"{data[0].replace(":","")}":"{data[1]}"'
-                        except Exception as e:
-                            series_data += f',"{data[0].replace(":","")}":"-"'
-                            continue
                 series_data = "{" + series_data + "}"
 
                 browser.find_element(By.CSS_SELECTOR,'button.details-option-button:nth-child(2)').click()

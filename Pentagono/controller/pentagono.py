@@ -121,9 +121,8 @@ def save_active(browser, filepath, documents, ratings):
             text_data = data.find_elements(By.TAG_NAME,'td')
             sleep(1)
             while aux_data < len(text_data):
-                if text_data[aux_data].text == 'Quantidade Prevista *:' or text_data[aux_data].text == 'Valor Nominal na Emissão:' or text_data[aux_data].text == 'Repactuação:' or text_data[aux_data].text == 'Participação nos Lucros:' or text_data[aux_data].text == 'Resgate Antecipado:':
-                    aux_data += 2
-                elif text_data[aux_data + 1] == '' or len(text_data) < 4:
+
+                if text_data[aux_data + 1] == '' or len(text_data) < 4:
                     if text_payload == '':
                         text_payload = f'"{text_data[aux_data].text.replace(":","").replace("/"," ou ")}": "-"'
                     else:
