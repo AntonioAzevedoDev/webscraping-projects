@@ -13,7 +13,7 @@ from Simplific.data import pathandcredentials as pc
 
 
 def save_cra(browser, overwrite=False):
-    print("Planner data")
+    print("Simplific data")
     browser.get(pc.CRA_URL)
     sleep(5)
     utils.accept_cookies(browser)
