@@ -319,19 +319,3 @@ def get_ratings(browser):
         }]
         return payload
 
-
-def test_wire():
-    from seleniumwire import webdriver
-
-    # Create a new instance of the Firefox driver
-    driver = webdriver.Firefox()
-
-    # Go to the Google home page
-    driver.get("https://www.pentagonotrustee.com.br/Site/DetalhesEmissor?ativo=10B0002537&aba=tab-2&tipo=3")
-    sleep(3)
-    driver.find_element(By.CSS_SELECTOR, 'article.bg-light:nth-child(3) > a:nth-child(1)').click()
-    sleep(4)
-    # Access and print requests via the `requests` attribute
-    #for request in driver.requests:
-     #   if "DownloadBinario?id=" in request.url:
-
