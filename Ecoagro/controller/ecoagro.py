@@ -165,11 +165,11 @@ def get_data(browser, cra_text, doc_text, text_payload):
                 for item in items:
                     item_details = item.find_elements(By.TAG_NAME, 'p')
                     if cra_text == '' and item_details[1].text != '':
-                        cra_text = f'"Emissor":"{emissor_name}",'
+                        cra_text = f'"Devedor":"{emissor_name}",'
                         cra_text += f'"{item_details[0].text}":"{item_details[1].text}"'
                     elif item_details[1].text == '':
                         if cra_text == '':
-                            cra_text = f'"Emissor":"{emissor_name}",'
+                            cra_text = f'"Devedor":"{emissor_name}",'
                             cra_text += f'"{item_details[0].text}":"-"'
                         else:
                             cra_text += f',"{item_details[0].text}":"-"'
