@@ -113,13 +113,10 @@ def get_details(browser, description_item_text):
             table_data = table.find_element(By.TAG_NAME, 'tbody').find_elements(By.TAG_NAME, 'tr')
             for data in table_data:
                 row_data = data.find_elements(By.TAG_NAME, 'td')
-                if 'Emissão' in row_data[0].text or 'Série' in row_data[0].text:
-                    continue
+                if table_text == '':
+                    table_text = f'"{row_data[0].text}":"{row_data[1].text}"'
                 else:
-                    if table_text == '':
-                        table_text = f'"{row_data[0].text}":"{row_data[1].text}"'
-                    else:
-                        table_text += f',"{row_data[0].text}":"{row_data[1].text}"'
+                    table_text += f',"{row_data[0].text}":"{row_data[1].text}"'
         table_text = "{" + description_item_text + ',' + table_text + "}"
         table_json = json.loads(table_text)
         return table_json
@@ -232,6 +229,7 @@ def get_additional_data(browser, payload):
                                     browser.execute_script(f"window.scrollTo({last_scroll_value}, {scroll_value})")
                                     sleep(1)
                                     continue
+                            sleep(3)
                             pdf_body = browser.find_element(By.CSS_SELECTOR, '.content').find_elements(By.TAG_NAME, 'table')
                             aux_pdf = 1
                             table_text_pdf = ''
