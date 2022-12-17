@@ -1,0 +1,5 @@
+LOGIN_URL = 'https://virgoinc.b2clogin.com/virgoinc.onmicrosoft.com/b2c_1_portal_virgo_signup_and_signin/oauth2/v2.0/authorize?client_id=b7b9a341-5d5b-4d86-852b-4c7d561f5d4d&scope=offline_access%20openid%20profile&redirect_uri=https%3A%2F%2Facesso.virgo.inc%2F&client-request-id=1b099164-1ebe-4b29-ae1b-65a585d00826&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.16.0&x-client-OS=&x-client-CPU=&client_info=1&code_challenge=NcBMcEmFapKFUkE_X8V2WyL31NvusNLaUFgqzPFe6kU&code_challenge_method=S256&nonce=09754f93-2b93-4f51-b4a3-3973a01b6540&state=eyJpZCI6IjM0M2Y1YjAxLTQzN2MtNGZkYi1hZDgxLTEzMDBlMzIyY2QzNiIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D'
+LOGIN_USR = 'lucassilva.eq@gmail.com'
+LOGIN_PWD = '@Anavivian32'
+CRA_URL = 'https://acesso.virgo.inc/emissoes'
+CRA_PATH = r'C:\Users\Lucas Silva\PycharmProjects\webscraping-projects\Virgo\virgo_data\br\cra'
