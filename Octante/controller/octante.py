@@ -150,20 +150,27 @@ def save_cra(browser, overwrite=False):
                     for data in table_details:
                         aux_details = 0
                         title = data.find_element(By.TAG_NAME, 'h3').text.capitalize()
+                        class_cra = ''
+                        try:
+                            class_cra = title.split('- ')[1].capitalize()
+                            title = title.split('- ')[0]
+                        except Exception as cl:
+                            class_cra = ''
                         data.find_element(By.TAG_NAME, 'button').click()
                         sleep(2)
                         details_text = data.find_elements(By.TAG_NAME, 'span')
                         while aux_details < len(details_text):
-                            detail_splited = details_text[aux_details].text.split(':')
+                            detail_splited = details_text[aux_details].text.split(': ')
                             if details_payload_text == '':
-                                details_payload_text = f'"{detail_splited[0]}":"{detail_splited[1]}"'
+                                details_payload_text = f'"Série":"{title}","Classe":"{class_cra}"'
+                                details_payload_text += f',"{detail_splited[0]}":"{detail_splited[1]}"'
                             else:
                                 details_payload_text += f',"{detail_splited[0]}":"{detail_splited[1]}"'
                             aux_details += 2
                         sleep(1)
                         details_payload_text = "{" + details_payload_text + "}"
                         details_json = json.loads(details_payload_text)
-                        payload_emissor[title] = details_json
+                        payload_emissor["Emissor"] = details_json
                         details_payload_text = ''
                         sleep(1)
                         data.find_element(By.TAG_NAME, 'button').click()
@@ -181,7 +188,7 @@ def save_cra(browser, overwrite=False):
                 table_data = browser.find_elements(By.CLASS_NAME, 'item-link-wrapper')
                 sleep(1)
                 continue
-            payload_text["Emissor"] = payload_emissor
+            payload_text["Dados da Oferta"] = payload_emissor
             doc_text = "{" + doc_text + "}"
             doc_json = json.loads(doc_text)
             payload_text["Documentos"] = doc_json
