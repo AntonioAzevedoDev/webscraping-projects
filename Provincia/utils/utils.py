@@ -1,4 +1,6 @@
 import hashlib
+import re
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
@@ -44,3 +46,6 @@ def accept_cookies(browser):
         print('')
 
 
+def clear_text(text):
+    text = re.findall(r'\d+', text)[0]
+    return text
