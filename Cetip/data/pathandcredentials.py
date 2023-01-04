@@ -7,4 +7,4 @@ ATIVOS_URL = {
     'negocios': 'lum_web_v04_10_01_estoque.asp?str_Ativo={}&str_TipoInformacao=Negocia%E7%F5es%20Definitivas&str_TipoInformacaoModelo=0&int_Idioma=1',
     'volume': 'lum_web_v04_10_01_estoque.asp?str_Ativo={}&str_TipoInformacao=Volume Depositado&str_TipoInformacaoModelo=0&int_Idioma=1'
 }
-ACT_PATH = r'C:\Users\Lucas Silva\PycharmProjects\webscraping-projects-git\Cetip\cetip_data\br\actives'
+ACT_PATH = r'C:\Users\Lucas Silva\PycharmProjects\webscraping-projects\Cetip\cetip_data\br\actives'

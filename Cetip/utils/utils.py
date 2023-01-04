@@ -30,6 +30,7 @@ def get_safe_setup(remote_url=None, headless=False):
 
 
 def clean_list(ativos):
+    #Limpar lista de ativos removendo itens inúteis
     aux = 0
     try:
         while aux <= 3:
@@ -43,6 +44,7 @@ def clean_list(ativos):
 
 
 def get_opcoes(browser):
+    #Buscar tipos de ativos
     browser.get(pc.BASE_URL.format(pc.ATIVOS_URL['opcoes']))
     options = [e for e in browser.find_element(By.XPATH, "//select[@name='ativo']").find_elements(By.TAG_NAME, 'option') if '-' in e.text]
     return {
@@ -51,6 +53,7 @@ def get_opcoes(browser):
 
 
 def set_date_range(browser):
+    # Definir range de data
     try:
         print('Alterando data')
         today = datetime.now().strftime("%d/%m/%y")
@@ -145,13 +148,13 @@ def organize_header(header, header_aux, active_text):
                 payload.append({data: new_active_text[0].strip()})
                 new_active_text.remove(new_active_text[0])
 
-        print('acabei')
         return payload
     except Exception as e:
         print(e)
 
 
 def generate_excel_file(header, _url, filename):
+    # Gerar e salvar os dados em um arquivo excel
     try:
         if not filename.exists():
             parse_value = lambda x: f"{x[-4:]}-{x[3:5]}-{x[:2]} " if '/' in x else x.replace(',', '.')
